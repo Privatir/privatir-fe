@@ -36,7 +36,60 @@ const Ball = styled.g`
 const StyledAnchor = styled(Link)`
     text-transform: uppercase;
     color: #4D2C91;
-    text-decoration: none;`
+    text-decoration: none;
+    &:hover {
+      border-bottom: 4px solid currentColor;
+      display: inline-block;
+    }
+    `
+const Footer = () => {
+
+  return (
+    <Row style={{ display: `flex`, justifyContent: `center` }}>
+      <Cell columns={5} style={{ display: `flex`, justifyContent: `space-around`, flex: `2 1 300px` }}>
+        © 2019 GitHub, Inc.
+        <Link to="/">
+          Terms
+        </Link>
+        <Link to="/">
+          Privacy
+        </Link>
+        <Link to="/">
+          Status
+        </Link>
+        <Link to="/">
+          Security
+        </Link>
+      </Cell>
+      <Cell columns={2} style={{ display: `flex`, justifyContent: `space-around`, flex: `1 1 300px` }}>
+        <svg width="50" height="50"
+          xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+          <a href="/">
+            <image xlinkHref="https://s3.amazonaws.com/privatir.com/privatir-shortform.svg" height="50" width="50" />
+          </a>
+        </svg>
+      </Cell>
+      <Cell columns={5} style={{ display: `flex`, justifyContent: `space-around`, flex: `2 1 300px` }}>
+        <Link to="/contact">
+          Contact Us
+        </Link>
+        <Link to="/pricing">
+          Pricing
+        </Link>
+        <Link to="/api">
+          API
+        </Link>
+        <Link to="/blog">
+          Blog
+        </Link>
+        <Link to="/about">
+          About
+        </Link>
+      </Cell>
+    </Row>
+  )
+}
+
 
 class App extends React.Component {
   render() {
@@ -122,6 +175,8 @@ class App extends React.Component {
             </div>
             </Cell>
           </Row>
+          <hr style={{ marginTop: `1rem` }}></hr>
+          <Footer />
         </Grid>
       </Router >
     );
