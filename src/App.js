@@ -3,7 +3,6 @@ import { Product } from "./components/Product";
 import Landing from "./components/Landing";
 import "@material/react-button/dist/button.css";
 import "./App.scss";
-import "@material/react-layout-grid/dist/layout-grid.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import typography from "./utils/typography";
 
@@ -14,7 +13,7 @@ class App extends React.Component {
     return (
       <Router>
         <Grid>
-          {typography.injectStyles()}
+          {typography.injectStyles()}{" "}
           <Route path="/" exact component={Landing} />
           <Route path="/product" exact component={Product} />
         </Grid>

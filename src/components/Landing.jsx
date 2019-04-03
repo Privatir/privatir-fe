@@ -3,6 +3,13 @@ import { Cell, Row } from "@material/react-layout-grid";
 import PrimaryNav from "../components/PrimaryNav";
 import Footer from "../components/Footer";
 import styled, { keyframes } from "styled-components";
+import colors from "../utils/colors";
+import {
+  Headline3 as H3,
+  Headline4 as H4,
+  Headline5 as H5,
+  Body1 as B1
+} from "@material/react-typography";
 
 const up = keyframes`
                 100% {
@@ -19,19 +26,26 @@ const Landing = () => {
     <div>
       <PrimaryNav />
       <Row>
-        <Cell columns={8}>
+        <Cell columns={12}>
           <div
-            style={{ display: "flex", flexFlow: "row wrap", marginTop: "5rem" }}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flexFlow: "row wrap",
+              margin: "5rem 3rem",
+              textAlign: `center`,
+              alignItems: `center`,
+              justifyContent: `center`
+            }}
           >
-            <h1 style={{ color: "#4D2C91", flex: " 3 1 auto" }}>
+            <H3>
               {" "}
               Track, monitor and manage all of the inbound inquiries from
               potential investors{" "}
-            </h1>
-            <h2>All in ONE place. Eliminate the back & forth.</h2>
+            </H3>
+            <H4>All in ONE place. Eliminate the back & forth.</H4>
           </div>
         </Cell>
-        <Cell columns={4} />
       </Row>
       <Row>
         <Cell columns={8}>
@@ -62,67 +76,90 @@ const Landing = () => {
           </div>
         </Cell>
       </Row>
+      <br />
       <Row>
-        <Cell columns={8}>
-          <h4>
-            The process of raising capital is going through a paradigm shift...
-          </h4>
-          <h4>
-            More and more companies are being barraged with inbound inquiries
-            from potentional investors, both individuals and funds.
-          </h4>
-          <h4>Privatir is here to change that!</h4>
-          <h4>
-            With Privatir you can keep track of all of those inbound inquiries
-            and focus on growing and building your company.
-          </h4>
+        <Cell columns={12}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flexFlow: "row wrap",
+              margin: "5rem 3rem",
+              textAlign: `center`,
+              alignItems: `center`,
+              justifyContent: `center`
+            }}
+          >
+            <H5>Raising Capital</H5>
+            <B1 style={{ padding: `0 10rem` }}>
+              The process of raising capital is going through a paradigm shift
+              More and more companies are being barraged with inbound inquiries
+              from potentional investors, both individuals and funds.
+            </B1>
+            <H5>Privatir is here to change that!</H5>
+            <B1>
+              With Privatir you can keep track of all of those inbound inquiries
+              and focus on growing and building your business.
+            </B1>
+          </div>
         </Cell>
       </Row>
       <Row>
         <Cell columns={4}>
           <div
             style={{
-              width: `300px`,
-              height: `300px`,
+              color: `${colors.secondaryTextColor}`,
+              border: `solid 1px ${colors.secondaryColor}`,
               borderRadius: `5px`,
-              backgroundColor: `#4D2C91`,
-              textAlign: `center`
+              backgroundColor: `${colors.secondaryColor}`,
+              textAlign: `center`,
+              height: `inherit`,
+              width: `inherit`
             }}
           >
-            One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            <B1>
+              One Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </B1>
           </div>
         </Cell>
         <Cell columns={4}>
           <div
             style={{
-              width: `300px`,
-              backgroundColor: `#FFF7F7`,
+              backgroundColor: `${colors.primaryColor}`,
+              border: `solid 1px ${colors.primaryColor}`,
               borderRadius: `5px`,
-              textAlign: `center`
+              textAlign: `center`,
+              height: `inherit`,
+              width: `inherit`
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            <B1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </B1>
           </div>
         </Cell>
         <Cell columns={4}>
           <div
             style={{
-              width: `300px`,
-              border: `solid 1px #4D2C91`,
+              border: `solid 1px ${colors.secondaryColor}`,
               borderRadius: `5px`,
-              textAlign: `center`
+              textAlign: `center`,
+              height: `inherit`,
+              width: `inherit`
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            <B1>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </B1>
           </div>
         </Cell>
       </Row>
