@@ -7,7 +7,6 @@ import colors from "../utils/colors";
 import {
   Headline3 as H3,
   Headline4 as H4,
-  Headline5 as H5,
   Body1 as B1
 } from "@material/react-typography";
 
@@ -90,13 +89,13 @@ const Landing = () => {
               justifyContent: `center`
             }}
           >
-            <H5>Raising Capital</H5>
+            <H4>Raising Capital</H4>
             <B1 style={{ padding: `0 10rem` }}>
               The process of raising capital is going through a paradigm shift
               More and more companies are being barraged with inbound inquiries
               from potentional investors, both individuals and funds.
             </B1>
-            <H5>Privatir is here to change that!</H5>
+            <H4>Privatir is here to change that</H4>
             <B1>
               With Privatir you can keep track of all of those inbound inquiries
               and focus on growing and building your business.
