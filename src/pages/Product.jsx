@@ -1,6 +1,6 @@
 import React from "react";
-import PrimaryNav from "./PrimaryNav";
-import Footer from "./Footer";
+import PrimaryNav from "../structural/PrimaryNav";
+import Footer from "../structural/Footer";
 import { Cell, Row } from "@material/react-layout-grid";
 import {
   Headline3 as H3,

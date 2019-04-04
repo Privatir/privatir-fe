@@ -1,6 +1,6 @@
 import React from "react";
-import { Product } from "./components/Product";
-import Landing from "./components/Landing";
+import { Product } from "./pages/Product";
+import Landing from "./pages/Landing";
 import "@material/react-button/dist/button.css";
 import "./App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
