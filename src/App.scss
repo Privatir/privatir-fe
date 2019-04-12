@@ -1,8 +1,52 @@
 @import "@material/react-layout-grid/index.scss";
-
-.mdc-layout-grid {
-  margin: 0 5vh;
-}
-
-$mdc-typography-font-family: "Merriweather|Merriweather+Sans";
 @import "@material/react-typography/index.scss";
+/* Base File Coming Soon */
+:root {
+  /* Text color change */
+  --heading-color: #000110;
+  --body-text: #121533;
+  --color-light: #4d4d58;
+
+  --default-line-height: 1;
+
+  /* Body text 1rem = 16px */
+  --text-body: 1rem;
+  --text-body-big: 1.125rem;
+
+  /* Coming soon big text size change  */
+  --big-title-desktop: 4.209rem;
+  --big-title-tablet: 3.488rem;
+
+  /* link color change here */
+  --link-color: #000000;
+  --link-color-hover: #1700fe;
+
+  /* body and loader background color change
+  by default its white*/
+  --body-color: #ffffff;
+
+  /* menu color */
+  /* menu circle color change here */
+  --menu-color-default: transparent;
+  --menu-color-active: #000000;
+
+  /* menu icon color change here */
+  --menu-color-icon: #ffffff;
+  --menu-color-icon-active: #000000;
+
+  /* menu background color change here */
+  --menu-color-background: #ffffff;
+  --menu-color-background-active: #f1f2f5;
+
+  /* icon size change (ex: social media) */
+  --icon-default-size: 28px;
+
+  /* forms */
+  /* it's default focus shadow, if you need to remove just simple change to 0 */
+  --form-focus-shadow: 0 40px 120px rgba(0, 0, 0, 0.11),
+    0 2px 24px rgba(0, 0, 0, 0.1);
+
+  /* Preloader icon color change */
+  --preloader-icon-box: #000000;
+  --preloader-icon-fill: #000000;
+}

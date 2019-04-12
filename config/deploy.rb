@@ -2,10 +2,10 @@
 lock '~> 3.11.0'
 
 set :application, 'privatir_static_site'
-set :repo_url, 'git@github.com:Privatir/privatir.git'
+set :repo_url, 'git@github.com:Privatir/privatir-fe.git'
 
 # Default branch is :master
-ask :branch, 'deploy'
+ask :branch, 'develop'
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, '/var/www/dev.privatir.com'
@@ -22,19 +22,19 @@ set :format_options, command_output: true, log_file: 'log/capistrano.log',
 set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, []
+# append :linked_files, []
 
 # Default value for linked_dirs is []
-append :linked_dirs, []
+# append :linked_dirs, []
 
 # Default value for default_env is {}
-set :default_env, {}
+# set :default_env, {}
 
 # Default value for local_user is ENV['USER']
-set :local_user, -> { `git config user.name`.chomp }
+# set :local_user, -> { `git config user.name`.chomp }
 
 # Default value for keep_releases is 5
-set :keep_releases, 1
+set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure

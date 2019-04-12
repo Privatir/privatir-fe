@@ -1,6 +1,6 @@
 import React from "react";
 import { Product } from "./pages/Product";
-import Landing from "./pages/Landing";
+import Landing from "./pages/Landing/Landing";
 import "@material/react-button/dist/button.css";
 import "./App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -12,11 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Grid>
-          {typography.injectStyles()}{" "}
-          <Route path="/" exact component={Landing} />
-          <Route path="/product" exact component={Product} />
-        </Grid>
+        <Route path="/" exact component={Landing} />
       </Router>
     );
   }
