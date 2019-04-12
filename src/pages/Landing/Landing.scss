@@ -1,4 +1,17 @@
 @import "../../App.scss";
+@import "@material/react-icon-button/index.scss";
+@import "@material/react-material-icon/index.scss";
+@import "@material/react-fab/index.scss";
+
+.mdc-fab {
+  @include mdc-fab-container-color(#ffffff);
+  @include mdc-fab-ink-color(#ffffff);
+  @include mdc-ripple-surface;
+  @include mdc-states-base-color(#ffffff);
+  &:focus {
+    background-color: #ffffff;
+  }
+}
 
 @-webkit-keyframes loader {
   0% {
@@ -71,6 +84,11 @@
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+// SVG fill color
+.cls-1 {
+  fill: #bc96b4;
 }
 
 @-webkit-keyframes fill {
@@ -172,7 +190,13 @@
 #loader-page {
   width: 100vw;
   height: 100vh;
-  background-color: var(--body-color);
+  background: rgb(255, 247, 247);
+  background: radial-gradient(
+    circle,
+    rgba(255, 247, 247, 1) 0%,
+    rgba(202, 163, 217, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   position: fixed;
   z-index: 999;
   display: -webkit-box;

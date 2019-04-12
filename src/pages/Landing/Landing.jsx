@@ -14,6 +14,9 @@ import {
   Headline4 as H4,
   Body1 as B1
 } from "@material/react-typography";
+import Button from "@material/react-button";
+import Fab from "@material/react-fab";
+import { Link } from "react-router-dom";
 
 const PreLoader = () => {};
 
@@ -67,13 +70,16 @@ class Landing extends React.Component {
         </VelocityComponent>
         <header className="cd-auto-hide-header">
           <div className="logo animate">
-            <a href="#" target="_blank">
-              <img
-                style={{ height: `50px`, width: `50px` }}
-                src="https://s3.amazonaws.com/privatir.com/privatir-shortform.svg"
-                alt="Logo"
+            <Link to="/" target="_target">
+              <Fab
+                icon={
+                  <i
+                    style={{ fontSize: `40px` }}
+                    className="icon-privatir-shortform"
+                  />
+                }
               />
-            </a>
+            </Link>
           </div>
         </header>
         <div className="main-wrapper content-center-align heightfull">
