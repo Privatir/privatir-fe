@@ -1,0 +1,1072 @@
+# Logfile created on 2019-04-04 16:27:13 -0500 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:27:13 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e5a59b02] Running /usr/bin/env mkdir -p /tmp as deployer@localhost
+ DEBUG [e5a59b02] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:27:54 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7f08c023] Running /usr/bin/env mkdir -p /tmp as ubuntu@localhost
+ DEBUG [7f08c023] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:29:53 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [87b2e91f] Running /usr/bin/env mkdir -p /tmp as deployer@localhost
+ DEBUG [87b2e91f] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:41:27 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1ca85b59] Running /usr/bin/env mkdir -p /tmp as deployer@localhost
+ DEBUG [1ca85b59] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:46:26 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c5035040] Running /usr/bin/env mkdir -p /tmp as ubuntu@dev.privatir.com
+ DEBUG [c5035040] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:46:48 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f96fcf3b] Running /usr/bin/env mkdir -p /tmp as ubuntu@dev.privatir.com
+ DEBUG [f96fcf3b] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:47:39 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1d8ab473] Running /usr/bin/env mkdir -p /tmp as ubuntu@dev.privatir.com
+ DEBUG [1d8ab473] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6907b496] Running /usr/bin/env #<StringIO:0x00007fd7b6a92d48> /tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh as ubuntu@dev.privatir.com
+ DEBUG [6907b496] Command: /usr/bin/env #<StringIO:0x00007fd7b6a92d48> /tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh
+  INFO [c94a3d82] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-Cameron\ Rison.sh as ubuntu@dev.privatir.com
+ DEBUG [c94a3d82] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-Cameron\ Rison.sh
+  INFO [6f7c6d8d] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir.git HEAD as ubuntu@dev.privatir.com
+ DEBUG [6f7c6d8d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir.git HEAD )
+  INFO [5bf3ed99] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as ubuntu@dev.privatir.com
+ DEBUG [5bf3ed99] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 16:59:14 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [83315008] Running /usr/bin/env mkdir -p /tmp as ubuntu@dev.privatir.com
+ DEBUG [83315008] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cc20e0fd] Finished in 0.876 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh 100.0%
+  INFO [56e1d535] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-Cameron\ Rison.sh as ubuntu@dev.privatir.com
+ DEBUG [56e1d535] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-Cameron\ Rison.sh
+  INFO [2b1bda5c] Finished in 0.182 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:01:58 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0af9b62d] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [0af9b62d] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:02:31 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [52839ac8] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [52839ac8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:04:59 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c27d1e5c] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [c27d1e5c] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:06:07 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [03167831] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [03167831] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:08:22 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1eff4e8e] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [1eff4e8e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:10:41 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [822b50c9] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [822b50c9] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:13:52 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dcc51af7] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [dcc51af7] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:31:37 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4faf1b32] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [4faf1b32] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bdf3b51a] Finished in 0.800 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-Cameron Rison.sh 0.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:36:07 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [68e9d484] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [68e9d484] Command: /usr/bin/env mkdir -p /tmp
+  INFO [972f7173] Finished in 0.898 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [b4ad530d] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [b4ad530d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [773bc2be] Finished in 0.191 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:36:57 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3512ed2e] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [3512ed2e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [01c7ec35] Finished in 0.819 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [e8e06085] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [e8e06085] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [e314bbc1] Finished in 0.183 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:37:39 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b3593a58] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [b3593a58] Command: /usr/bin/env mkdir -p /tmp
+  INFO [24e4ce7f] Finished in 0.768 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [651cefaf] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [651cefaf] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [d34ad3c9] Finished in 0.193 seconds with exit status 0 (successful).
+  INFO [1a09e759] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [1a09e759] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [8efdeac1] 	Permission denied (publickey).
+ DEBUG [8efdeac1] 	
+ DEBUG [8efdeac1] 	fatal: Could not read from remote repository.
+ DEBUG [8efdeac1] 	
+ DEBUG [8efdeac1] 	
+Please make sure you have the correct access rights
+and the repository exists.
+ DEBUG [8efdeac1] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:41:56 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [345ad9ae] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [345ad9ae] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ec66b3d8] Finished in 0.748 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [a59dd959] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [a59dd959] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [de5b88a7] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [6f71992c] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [6f71992c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [e0b187fa] 	Permission denied (publickey).
+ DEBUG [e0b187fa] 	
+ DEBUG [e0b187fa] 	fatal: Could not read from remote repository.
+ DEBUG [e0b187fa] 	
+ DEBUG [e0b187fa] 	
+Please make sure you have the correct access rights
+and the repository exists.
+ DEBUG [e0b187fa] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:49:28 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [24950402] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [24950402] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e0b051f4] Finished in 0.820 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [a369294c] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [a369294c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [bc800287] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO [d86dedd7] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [d86dedd7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [ff965236] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [ff965236] 		
+ DEBUG [ff965236] 	HEAD
+  INFO [ff965236] Finished in 0.313 seconds with exit status 0 (successful).
+  INFO [b41e8d6b] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [b41e8d6b] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+ DEBUG [efaf5a74] 	mkdir: 
+ DEBUG [efaf5a74] 	cannot create directory ‘/var/www/dev.privatir.com/shared’
+ DEBUG [efaf5a74] 	: Permission denied
+ DEBUG [efaf5a74] 	
+ DEBUG [efaf5a74] 	mkdir: 
+ DEBUG [efaf5a74] 	cannot create directory ‘/var/www/dev.privatir.com/releases’
+ DEBUG [efaf5a74] 	: Permission denied
+ DEBUG [efaf5a74] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:53:54 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [48e9289f] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [48e9289f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4916767c] Finished in 0.798 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [0114e598] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [0114e598] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [387bfa95] Finished in 0.173 seconds with exit status 0 (successful).
+  INFO [f5c0dc77] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [f5c0dc77] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [a10fe8d8] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [a10fe8d8] 		
+ DEBUG [a10fe8d8] 	HEAD
+  INFO [a10fe8d8] Finished in 0.327 seconds with exit status 0 (successful).
+  INFO [e13df85f] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [e13df85f] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+  INFO [a88ade6b] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 18:55:14 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [10232c77] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [10232c77] Command: /usr/bin/env mkdir -p /tmp
+  INFO [63e798e2] Finished in 0.787 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [9689c035] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [9689c035] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [12ac4c5c] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [95d37464] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [95d37464] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [eca84719] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [eca84719] 		
+ DEBUG [eca84719] 	HEAD
+  INFO [eca84719] Finished in 0.316 seconds with exit status 0 (successful).
+  INFO [22989c63] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [22989c63] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+  INFO [5dd2fb9b] Finished in 0.180 seconds with exit status 0 (successful).
+ DEBUG [cd5960e7] Running [ -f /var/www/dev.privatir.com/current/REVISION ] as deployer@dev.privatir.com
+ DEBUG [cd5960e7] Command: [ -f /var/www/dev.privatir.com/current/REVISION ]
+ DEBUG [cba39560] Finished in 0.190 seconds with exit status 1 (failed).
+ DEBUG [c5797a85] Running [ -f /var/www/dev.privatir.com/repo/HEAD ] as deployer@dev.privatir.com
+ DEBUG [c5797a85] Command: [ -f /var/www/dev.privatir.com/repo/HEAD ]
+ DEBUG [0ccd7e77] Finished in 0.184 seconds with exit status 1 (failed).
+ DEBUG [16918a68] Running if test ! -d /var/www/dev.privatir.com; then echo "Directory does not exist '/var/www/dev.privatir.com'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [16918a68] Command: if test ! -d /var/www/dev.privatir.com; then echo "Directory does not exist '/var/www/dev.privatir.com'" 1>&2; false; fi
+ DEBUG [3ffce213] Finished in 0.175 seconds with exit status 0 (successful).
+  INFO [791b4390] Running /usr/bin/env git clone --mirror git@github.com:Privatir/privatir-fe.git /var/www/dev.privatir.com/repo as deployer@dev.privatir.com
+ DEBUG [791b4390] Command: cd /var/www/dev.privatir.com && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git clone --mirror git@github.com:Privatir/privatir-fe.git /var/www/dev.privatir.com/repo )
+ DEBUG [f3e5ff5a] 	Cloning into bare repository '/var/www/dev.privatir.com/repo'...
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	remote: Enumerating objects: 108, done.[K
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   0% (1/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   1% (2/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   2% (3/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   3% (4/
+ DEBUG [f3e5ff5a] 	108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   4% (5/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   5% (6/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   6% (7/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects: 
+ DEBUG [f3e5ff5a] 	  7% (8/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   8% (9/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:   9% (10/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  10% (11/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting
+ DEBUG [f3e5ff5a] 	 objects:  11% (12/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  12% (13/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  13% (15/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  14% (16/108)
+ DEBUG [f3e5ff5a] 	   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  15% (17/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  16% (18/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  17% (19/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  
+ DEBUG [f3e5ff5a] 	18% (20/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  19% (21/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  20% (22/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  21% (23/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Countin
+ DEBUG [f3e5ff5a] 	g objects:  22% (24/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  23% (25/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  24% (26/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  25% (27/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  26% (29/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  27% (30/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  28% 
+ DEBUG [f3e5ff5a] 	(31/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  29% (32/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  30% (33/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  31% (34/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  32% (35/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  33% (36/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  34% (37/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  35% (38/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  36% (39/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  37% (40/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  38% (42/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  39% (43/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  40% (44/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  41% (45/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  42% (46/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  43% (47/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  44% (48/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  45% (49/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  46% (50/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  47% (51/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  48% (52/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  49% (53/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  50% (54/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  51% (56/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  52% (57/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  53% (58/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  54% (59/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  55% (60/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  56% (61/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  57% (62/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  58% (63/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  59% (64/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  60% (65/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  61% (66/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  62% (67/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  63% (69/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  64% (70/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  65% (71/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  66% (72/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  67% (73/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  68% (74/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  69% (75/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  70% (76/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  71% (77/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  72% (78/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  73% 
+ DEBUG [f3e5ff5a] 	(79/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  74% (80/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  75% (81/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  76% (83/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  77% (84/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  78% (85/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  79% (86/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  80% (87/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  81% (88/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  82% (89/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  83% (90/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  84% (91/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  85% (92/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  86% (93/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  87% (94/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  88% 
+ DEBUG [f3e5ff5a] 	(96/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  89% (97/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  90% (98/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  91% (99/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  92% (100/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  93% (101/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  94% (102/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  95% (103/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  96% (104/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  97% (105/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  98% (106/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects:  99% (107/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects: 100% (108/108)   [K
+ DEBUG [f3e5ff5a] 	remote: Counting objects: 100% (108/108), done.[K
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   1% (1/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   2% (2/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   3% (3/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   5% (4/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   6% (5/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   7% (6/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:   8% (7/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  10% (8/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  11% (9/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  12% (10/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  13% (11/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  15% (12/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  16% (13/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  17% (14/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  18% (15/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  20% (16/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  21% (17/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  22% (18/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  24% (19/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  25% (20/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  26% (21/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  27% (22/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  29% (23/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  30% (24/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  31% (25/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  32% (26/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  34% (27/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  35% (28/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  36% (29/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  37% (30/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  39% (31/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  40% (32/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  41% (33/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  43% (34/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  44% (35/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  45% (36/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  46% (37/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  48% (38/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  49% (39/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  50% (40/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  51% (41/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  53% (42/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  54% (43/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  55% (44/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  56% (45/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  58% (46/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  59% (47/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  60% (48/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  62% (49/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  63% (50/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  64% (51/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  65% (52/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  67% (53/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  68% (54/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  69% (55/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  70% (56/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  72% (57/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  73% (58/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  74% (59/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  75% (60/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  77% (61/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  78% (62/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  79% (63/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  81% (64/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  82% (65/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  83% (66/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  84% (67/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  86% (68/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  87% (69/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  88% (70/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  89% (71/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  91% (72/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  92% (73/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  93% (74/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  94% (75/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  96% (76/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  97% (77/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects:  98% (78/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects: 100% (79/79)   [K
+ DEBUG [f3e5ff5a] 	remote: Compressing objects: 100% (79/79), done.[K
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	Receiving objects:   0% (1/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   1% (2/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   2% (3/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   3% (4/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   4% (5/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   5% (6/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   6% (7/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   7% (8/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   8% (9/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:   9% (10/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  10% (11/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  11% (12/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  12% (13/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  13% (15/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  14% (16/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  15% (17/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  16% (18/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  17% (19/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  18% (20/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  19% (21/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  20% (22/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  21% (23/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  22% (24/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  23% (25/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  24% (26/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  25% (27/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  26% (29/108)   
+ DEBUG [f3e5ff5a] 	remote: Total 108 (delta 37), reused 96 (delta 25), pack-reused 0[K
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	Receiving objects:  27% (30/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  28% (31/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  29% (32/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  30% (33/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  31% (34/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  32% (35/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  33% (36/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  34% (37/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  35% (38/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  36% (39/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  37% (40/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  38% (42/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  39% (43/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  40% (44/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  41% (45/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  42% (46/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  43% (47/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  44% (48/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  45% (49/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  46% (50/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  47% (51/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  48% (52/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  49% (53/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  50% (54/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  51% (56/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  52% (57/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  53% (58/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  54% (59/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  55% (60/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  56% (61/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  57% (62/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  58% (63/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  59% (64/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  60% (65/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  61% (66/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  62% (67/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  63% (69/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  64% (70/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  65% (71/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  66% (72/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  67% (73/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  68% (74/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  69% (75/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  70% (76/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  71% (77/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  72% (78/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  73% (79/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  74% (80/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  75% (81/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  76% (83/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  77% (84/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  78% (85/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  79% (86/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  80% (87/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  81% (88/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  82% (89/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  83% (90/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  84% (91/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  85% (92/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  86% (93/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  87% (94/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  88% (96/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  89% (97/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  90% (98/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  91% (99/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  92% (100/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  93% (101/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  94% (102/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  95% (103/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  96% (104/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  97% (105/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  98% (106/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects:  99% (107/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects: 100% (108/108)   
+ DEBUG [f3e5ff5a] 	Receiving objects: 100% (108/108), 223.14 KiB | 0 bytes/s, done.
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	Resolving deltas:   0% (0/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:   8% (3/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  10% (4/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  13% (5/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  18% (7/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  21% (8/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  27% (10/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  35% (13/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  45% (17/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  51% (19/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  56% (21/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  59% (22/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  70% (26/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  72% (27/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  83% (31/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  86% (32/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  89% (33/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  91% (34/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas:  97% (36/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas: 100% (37/37)   
+ DEBUG [f3e5ff5a] 	Resolving deltas: 100% (37/37), done.
+ DEBUG [f3e5ff5a] 	
+ DEBUG [f3e5ff5a] 	Checking connectivity... 
+ DEBUG [f3e5ff5a] 	done.
+ DEBUG [f3e5ff5a] 	
+  INFO [f3e5ff5a] Finished in 0.511 seconds with exit status 0 (successful).
+ DEBUG [2135ad3f] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [2135ad3f] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [61aaa7f1] Finished in 0.182 seconds with exit status 0 (successful).
+  INFO [00176a56] Running /usr/bin/env git remote set-url origin git@github.com:Privatir/privatir-fe.git as deployer@dev.privatir.com
+ DEBUG [00176a56] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git remote set-url origin git@github.com:Privatir/privatir-fe.git )
+  INFO [1610bab2] Finished in 0.181 seconds with exit status 0 (successful).
+  INFO [3f6db9e1] Running /usr/bin/env git remote update --prune as deployer@dev.privatir.com
+ DEBUG [3f6db9e1] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7544ba99] 	Fetching origin
+ DEBUG [7544ba99] 	
+  INFO [7544ba99] Finished in 0.408 seconds with exit status 0 (successful).
+ DEBUG [87dc435d] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [87dc435d] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [3fd3d24e] Finished in 0.193 seconds with exit status 0 (successful).
+  INFO [66dfe28f] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/releases/20190404235518 as deployer@dev.privatir.com
+ DEBUG [66dfe28f] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env mkdir -p /var/www/dev.privatir.com/releases/20190404235518 )
+  INFO [0e9928c7] Finished in 0.178 seconds with exit status 0 (successful).
+  INFO [3631dd35] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.privatir.com/releases/20190404235518 as deployer@dev.privatir.com
+ DEBUG [3631dd35] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.privatir.com/releases/20190404235518 )
+  INFO [4f32155c] Finished in 0.197 seconds with exit status 0 (successful).
+ DEBUG [971b7069] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [971b7069] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [b9c28ec3] Finished in 0.176 seconds with exit status 0 (successful).
+ DEBUG [c6cbc2ea] Running /usr/bin/env git rev-list --max-count=1 develop as deployer@dev.privatir.com
+ DEBUG [c6cbc2ea] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [547047c3] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [547047c3] 	
+ DEBUG [547047c3] Finished in 0.190 seconds with exit status 0 (successful).
+ DEBUG [9649fef6] Running if test ! -d /var/www/dev.privatir.com/releases/20190404235518; then echo "Directory does not exist '/var/www/dev.privatir.com/releases/20190404235518'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [9649fef6] Command: if test ! -d /var/www/dev.privatir.com/releases/20190404235518; then echo "Directory does not exist '/var/www/dev.privatir.com/releases/20190404235518'" 1>&2; false; fi
+ DEBUG [3641d4f5] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO [e168ca30] Running /usr/bin/env echo "1a6f22bacb34fec93c429c7ae9111a096272c662" > REVISION as deployer@dev.privatir.com
+ DEBUG [e168ca30] Command: cd /var/www/dev.privatir.com/releases/20190404235518 && /usr/bin/env echo "1a6f22bacb34fec93c429c7ae9111a096272c662" > REVISION
+  INFO [4647c73d] Finished in 0.192 seconds with exit status 0 (successful).
+  INFO [5d238ef6] Running /usr/bin/env ln -s /var/www/dev.privatir.com/releases/20190404235518 /var/www/dev.privatir.com/releases/current as deployer@dev.privatir.com
+ DEBUG [5d238ef6] Command: /usr/bin/env ln -s /var/www/dev.privatir.com/releases/20190404235518 /var/www/dev.privatir.com/releases/current
+  INFO [e7e2d2c9] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [5f4db80c] Running /usr/bin/env mv /var/www/dev.privatir.com/releases/current /var/www/dev.privatir.com as deployer@dev.privatir.com
+ DEBUG [5f4db80c] Command: /usr/bin/env mv /var/www/dev.privatir.com/releases/current /var/www/dev.privatir.com
+  INFO [b427a57c] Finished in 0.194 seconds with exit status 0 (successful).
+ DEBUG [c7573dec] Running /usr/bin/env ls -x /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [c7573dec] Command: /usr/bin/env ls -x /var/www/dev.privatir.com/releases
+ DEBUG [ec9cf569] 	20190404235518
+ DEBUG [ec9cf569] 	
+ DEBUG [ec9cf569] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO Keeping 1 of 1 deployed releases on dev.privatir.com
+ DEBUG [05a8c406] Running [ -d /var/www/dev.privatir.com/current ] as deployer@dev.privatir.com
+ DEBUG [05a8c406] Command: [ -d /var/www/dev.privatir.com/current ]
+ DEBUG [eb8c64ff] Finished in 0.203 seconds with exit status 0 (successful).
+ DEBUG [6d5d5a65] Running /usr/bin/env readlink /var/www/dev.privatir.com/current as deployer@dev.privatir.com
+ DEBUG [6d5d5a65] Command: /usr/bin/env readlink /var/www/dev.privatir.com/current
+ DEBUG [899b25ee] 	/var/www/dev.privatir.com/releases/20190404235518
+ DEBUG [899b25ee] 	
+ DEBUG [899b25ee] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO No old releases (keeping newest 1) on dev.privatir.com
+ DEBUG [5db25110] Running if test ! -d /var/www/dev.privatir.com/releases; then echo "Directory does not exist '/var/www/dev.privatir.com/releases'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [5db25110] Command: if test ! -d /var/www/dev.privatir.com/releases; then echo "Directory does not exist '/var/www/dev.privatir.com/releases'" 1>&2; false; fi
+ DEBUG [7de34b6f] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [9e2e3d18] Running /usr/bin/env echo "Branch develop (at 1a6f22bacb34fec93c429c7ae9111a096272c662) deployed as release 20190404235518 by iillmaticc" >> /var/www/dev.privatir.com/revisions.log as deployer@dev.privatir.com
+ DEBUG [9e2e3d18] Command: cd /var/www/dev.privatir.com/releases && /usr/bin/env echo "Branch develop (at 1a6f22bacb34fec93c429c7ae9111a096272c662) deployed as release 20190404235518 by iillmaticc" >> /var/www/dev.privatir.com/revisions.log
+  INFO [bf416591] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 20:26:34 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9178c305] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [9178c305] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-04 20:30:15 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2e586444] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [2e586444] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-07 16:30:47 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d86ea492] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [d86ea492] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-07 16:32:06 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [117bb107] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [117bb107] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d8b92fb0] Finished in 2.077 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [616db93a] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [616db93a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [90143720] Finished in 0.628 seconds with exit status 0 (successful).
+  INFO [3ef72cd4] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [3ef72cd4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [d3ccdf0d] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [d3ccdf0d] 	
+ DEBUG [d3ccdf0d] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [d3ccdf0d] 		
+ DEBUG [d3ccdf0d] 	HEAD
+  INFO [d3ccdf0d] Finished in 0.476 seconds with exit status 0 (successful).
+  INFO [6f60f05a] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [6f60f05a] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+ DEBUG [c38061ba] 	mkdir: 
+ DEBUG [c38061ba] 	cannot create directory ‘/var/www/dev.privatir.com/shared’
+ DEBUG [c38061ba] 	: Permission denied
+ DEBUG [c38061ba] 	
+ DEBUG [c38061ba] 	mkdir: 
+ DEBUG [c38061ba] 	cannot create directory ‘/var/www/dev.privatir.com/releases’
+ DEBUG [c38061ba] 	: Permission denied
+ DEBUG [c38061ba] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-04-07 16:38:01 -0500 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3a569f2e] Running /usr/bin/env mkdir -p /tmp as deployer@dev.privatir.com
+ DEBUG [3a569f2e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [56d04c57] Finished in 1.875 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 0.0%
+  INFO Uploading /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh 100.0%
+  INFO [6f1103f1] Running /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh as deployer@dev.privatir.com
+ DEBUG [6f1103f1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh
+  INFO [55966685] Finished in 0.472 seconds with exit status 0 (successful).
+  INFO [5cf21a29] Running /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD as deployer@dev.privatir.com
+ DEBUG [5cf21a29] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git ls-remote git@github.com:Privatir/privatir-fe.git HEAD )
+ DEBUG [0321408d] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [0321408d] 	
+ DEBUG [0321408d] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [0321408d] 		
+ DEBUG [0321408d] 	HEAD
+  INFO [0321408d] Finished in 0.505 seconds with exit status 0 (successful).
+  INFO [56bedc56] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [56bedc56] Command: /usr/bin/env mkdir -p /var/www/dev.privatir.com/shared /var/www/dev.privatir.com/releases
+  INFO [502a5805] Finished in 0.371 seconds with exit status 0 (successful).
+ DEBUG [c37d7c05] Running [ -f /var/www/dev.privatir.com/current/REVISION ] as deployer@dev.privatir.com
+ DEBUG [c37d7c05] Command: [ -f /var/www/dev.privatir.com/current/REVISION ]
+ DEBUG [42856874] Finished in 0.416 seconds with exit status 1 (failed).
+ DEBUG [802e328d] Running [ -f /var/www/dev.privatir.com/repo/HEAD ] as deployer@dev.privatir.com
+ DEBUG [802e328d] Command: [ -f /var/www/dev.privatir.com/repo/HEAD ]
+ DEBUG [fde722ab] Finished in 0.269 seconds with exit status 1 (failed).
+ DEBUG [b5542869] Running if test ! -d /var/www/dev.privatir.com; then echo "Directory does not exist '/var/www/dev.privatir.com'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [b5542869] Command: if test ! -d /var/www/dev.privatir.com; then echo "Directory does not exist '/var/www/dev.privatir.com'" 1>&2; false; fi
+ DEBUG [8fc5f014] Finished in 0.304 seconds with exit status 0 (successful).
+  INFO [cb68ac79] Running /usr/bin/env git clone --mirror git@github.com:Privatir/privatir-fe.git /var/www/dev.privatir.com/repo as deployer@dev.privatir.com
+ DEBUG [cb68ac79] Command: cd /var/www/dev.privatir.com && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git clone --mirror git@github.com:Privatir/privatir-fe.git /var/www/dev.privatir.com/repo )
+ DEBUG [e48f3c95] 	Cloning into bare repository '/var/www/dev.privatir.com/repo'...
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	remote: Enumerating objects: 108, done.[K
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	remote: Counting objects:   0% (1/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   1% (2/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   2% (3/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   3% (4/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   4% (5/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   5% (6/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   6% (7/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   7% (8/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   8% (9/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:   9% (10/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  10% (11/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  11% (12/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  12% (13/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  13% (15/108)   
+ DEBUG [e48f3c95] 	remote: Counting objects:  14% (16/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  15% (17/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  16% (18/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  17% (19/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  18% (20/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  19% (21/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  20% (22/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  21% (23/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  22% (24/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  23% (25/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  24% (26/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  25% (27/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  26% (29/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  27% (30/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  28% (31/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  29% (32/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  30% (33/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  31% (34/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  32% (35/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  33% (36/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  34% (37/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  35% (38/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  36% (39/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  37% (40/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  38% (42/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  39% (43/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  40% (44/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  41% (45/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  42% (46/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  43% (47/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  44% (48/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  45% (49/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  46% (50/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  47% (51/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  48% (52/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  49% (53/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  50% (54/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  51% (56/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  52% (57/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  53% (58/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  54% (59/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  55% (60/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  56% (61/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  57% (62/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  58% (63/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  59% (64/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  60% (65/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  61% (66/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  62% (67/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  63% (69/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  64% (70/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  65% (71/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  66% (72/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  67% (73/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  68% (74/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  69% (75/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  70% (76/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  71% (77/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  72% (78/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  73% (79/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  74% (80/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  75% (81/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  76% (83/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  77% (84/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  78% (85/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  79% (86/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  80% (87/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  81% (88/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  82% (89/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  83% (90/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  84% (91/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  85% (92/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  86% (93/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  87% (94/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  88% (96/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  89% (97/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  90% (98/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  91% (99/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  92% (100/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  93% (101/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  94% (102/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  95% (103/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  96% (104/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  97% (105/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  98% (106/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects:  99% (107/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects: 100% (108/108)   [K
+ DEBUG [e48f3c95] 	remote: Counting objects: 100% (108/108), done.[K
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	remote: Compressing objects:   1% (1/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   2% (2/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   3% (3/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   5% (4/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   6% (5/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   7% (6/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:   8% (7/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  10% (8/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  11% (9/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  12% (10/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  13% (11/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  15% (12/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  16% (13/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  17% (14/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  18% (15/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  20% (16/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  21% (17/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  22% (18/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  24% (19/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  25% (20/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  26% (21/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  27% (22/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  29% (23/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  30% (24/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  31% (25/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  32% (26/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  34% (27/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  35% (28/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  36% (29/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  37% (30/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  39% (31/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  40% (32/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  41% (33/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  43% (34/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  44% (35/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  45% (36/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  46% (37/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  48% (38/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  49% (39/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  50% (40/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  51% (41/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  53% (42/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  54% (43/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  55% (44/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  56% (45/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  58% (46/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  59% (47/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  60% (48/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  62% (49/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  63% (50/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  64% (51/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  65% (52/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  67% (53/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  68% (54/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  69% (55/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  70% (56/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  72% (57/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  73% (58/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  74% (59/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  75% (60/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  77% (61/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  78% (62/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  79% (63/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  81% (64/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  82% (65/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  83% (66/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  84% (67/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  86% (68/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  87% (69/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  88% (70/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  89% (71/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  91% (72/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  92% (73/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  93% (74/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  94% (75/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  96% (76/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  97% (77/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects:  98% (78/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects: 100% (79/79)   [K
+ DEBUG [e48f3c95] 	remote: Compressing objects: 100% (79/79), done.[K
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	Receiving objects:   0% (1/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   1% (2/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   2% (3/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   3% (4/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   4% (5/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   5% (6/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   6% (7/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   7% (8/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   8% (9/108)   
+ DEBUG [e48f3c95] 	Receiving objects:   9% (10/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  10% (11/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  11% (12/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  12% (13/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  13% (15/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  14% (16/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  15% (17/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  16% (18/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  17% (19/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  18% (20/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  19% (21/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  20% (22/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  21% (23/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  22% (24/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  23% (25/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  24% (26/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  25% (27/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  26% (29/108)   
+ DEBUG [e48f3c95] 	remote: Total 108 (delta 37), reused 96 (delta 25), pack-reused 0[K
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	Receiving objects:  27% (30/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  28% (31/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  29% (32/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  30% (33/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  31% (34/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  32% (35/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  33% (36/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  34% (37/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  35% (38/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  36% (39/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  37% (40/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  38% (42/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  39% (43/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  40% (44/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  41% (45/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  42% (46/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  43% (47/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  44% (48/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  45% (49/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  46% (50/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  47% (51/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  48% (52/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  49% (53/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  50% (54/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  51% (56/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  52% (57/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  53% (58/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  54% (59/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  55% (60/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  56% (61/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  57% (62/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  58% (63/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  59% (64/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  60% (65/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  61% (66/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  62% (67/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  63% (69/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  64% (70/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  65% (71/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  66% (72/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  67% (73/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  68% (74/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  69% (75/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  70% (76/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  71% (77/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  72% (78/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  73% (79/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  74% (80/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  75% (81/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  76% (83/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  77% (84/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  78% (85/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  79% (86/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  80% (87/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  81% (88/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  82% (89/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  83% (90/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  84% (91/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  85% (92/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  86% (93/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  87% (94/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  88% (96/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  89% (97/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  90% (98/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  91% (99/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  92% (100/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  93% (101/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  94% (102/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  95% (103/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  96% (104/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  97% (105/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  98% (106/108)   
+ DEBUG [e48f3c95] 	Receiving objects:  99% (107/108)   
+ DEBUG [e48f3c95] 	Receiving objects: 100% (108/108)   
+ DEBUG [e48f3c95] 	Receiving objects: 100% (108/108), 223.14 KiB | 17.16 MiB/s, done.
+ DEBUG [e48f3c95] 	
+ DEBUG [e48f3c95] 	Resolving deltas:   0% (0/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:   8% (3/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  10% (4/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  13% (5/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  18% (7/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  21% (8/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  27% (10/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  35% (13/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  45% (17/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  51% (19/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  56% (21/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  59% (22/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  70% (26/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  72% (27/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  83% (31/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  86% (32/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  89% (33/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  91% (34/37)   
+ DEBUG [e48f3c95] 	Resolving deltas:  97% (36/37)   
+ DEBUG [e48f3c95] 	Resolving deltas: 100% (37/37)   
+ DEBUG [e48f3c95] 	Resolving deltas: 100% (37/37), done.
+ DEBUG [e48f3c95] 	
+  INFO [e48f3c95] Finished in 1.097 seconds with exit status 0 (successful).
+ DEBUG [47f15133] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [47f15133] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [2b275376] Finished in 0.317 seconds with exit status 0 (successful).
+  INFO [dcbc37b6] Running /usr/bin/env git remote set-url origin git@github.com:Privatir/privatir-fe.git as deployer@dev.privatir.com
+ DEBUG [dcbc37b6] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git remote set-url origin git@github.com:Privatir/privatir-fe.git )
+  INFO [c4ca7230] Finished in 0.323 seconds with exit status 0 (successful).
+  INFO [ebf9e547] Running /usr/bin/env git remote update --prune as deployer@dev.privatir.com
+ DEBUG [ebf9e547] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9d1160c3] 	Fetching origin
+ DEBUG [9d1160c3] 	
+  INFO [9d1160c3] Finished in 0.574 seconds with exit status 0 (successful).
+ DEBUG [b73460b9] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [b73460b9] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [0c7049f7] Finished in 0.512 seconds with exit status 0 (successful).
+  INFO [dcceba72] Running /usr/bin/env mkdir -p /var/www/dev.privatir.com/releases/20190407213808 as deployer@dev.privatir.com
+ DEBUG [dcceba72] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env mkdir -p /var/www/dev.privatir.com/releases/20190407213808 )
+  INFO [64afe876] Finished in 0.458 seconds with exit status 0 (successful).
+  INFO [4634db1e] Running /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.privatir.com/releases/20190407213808 as deployer@dev.privatir.com
+ DEBUG [4634db1e] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git archive develop | /usr/bin/env tar -x -f - -C /var/www/dev.privatir.com/releases/20190407213808 )
+  INFO [75e4049e] Finished in 0.513 seconds with exit status 0 (successful).
+ DEBUG [b889875c] Running if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [b889875c] Command: if test ! -d /var/www/dev.privatir.com/repo; then echo "Directory does not exist '/var/www/dev.privatir.com/repo'" 1>&2; false; fi
+ DEBUG [173fc603] Finished in 0.423 seconds with exit status 0 (successful).
+ DEBUG [ef35e8dd] Running /usr/bin/env git rev-list --max-count=1 develop as deployer@dev.privatir.com
+ DEBUG [ef35e8dd] Command: cd /var/www/dev.privatir.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-privatir_static_site-staging-iillmaticc.sh" ; /usr/bin/env git rev-list --max-count=1 develop )
+ DEBUG [9e89405a] 	1a6f22bacb34fec93c429c7ae9111a096272c662
+ DEBUG [9e89405a] 	
+ DEBUG [9e89405a] Finished in 0.349 seconds with exit status 0 (successful).
+ DEBUG [5afedbf2] Running if test ! -d /var/www/dev.privatir.com/releases/20190407213808; then echo "Directory does not exist '/var/www/dev.privatir.com/releases/20190407213808'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [5afedbf2] Command: if test ! -d /var/www/dev.privatir.com/releases/20190407213808; then echo "Directory does not exist '/var/www/dev.privatir.com/releases/20190407213808'" 1>&2; false; fi
+ DEBUG [0ebab937] Finished in 0.542 seconds with exit status 0 (successful).
+  INFO [7bc8775f] Running /usr/bin/env echo "1a6f22bacb34fec93c429c7ae9111a096272c662" > REVISION as deployer@dev.privatir.com
+ DEBUG [7bc8775f] Command: cd /var/www/dev.privatir.com/releases/20190407213808 && /usr/bin/env echo "1a6f22bacb34fec93c429c7ae9111a096272c662" > REVISION
+  INFO [b4542e29] Finished in 0.358 seconds with exit status 0 (successful).
+  INFO [3be1b2a1] Running /usr/bin/env ln -s /var/www/dev.privatir.com/releases/20190407213808 /var/www/dev.privatir.com/releases/current as deployer@dev.privatir.com
+ DEBUG [3be1b2a1] Command: /usr/bin/env ln -s /var/www/dev.privatir.com/releases/20190407213808 /var/www/dev.privatir.com/releases/current
+  INFO [376c2eba] Finished in 0.343 seconds with exit status 0 (successful).
+  INFO [2925e95c] Running /usr/bin/env mv /var/www/dev.privatir.com/releases/current /var/www/dev.privatir.com as deployer@dev.privatir.com
+ DEBUG [2925e95c] Command: /usr/bin/env mv /var/www/dev.privatir.com/releases/current /var/www/dev.privatir.com
+  INFO [f6444561] Finished in 1.650 seconds with exit status 0 (successful).
+ DEBUG [6f3b3bed] Running /usr/bin/env ls -x /var/www/dev.privatir.com/releases as deployer@dev.privatir.com
+ DEBUG [6f3b3bed] Command: /usr/bin/env ls -x /var/www/dev.privatir.com/releases
+ DEBUG [e73f188f] 	20190407213808
+ DEBUG [e73f188f] 	
+ DEBUG [e73f188f] Finished in 0.382 seconds with exit status 0 (successful).
+ DEBUG [f7f93d1b] Running if test ! -d /var/www/dev.privatir.com/releases; then echo "Directory does not exist '/var/www/dev.privatir.com/releases'" 1>&2; false; fi as deployer@dev.privatir.com
+ DEBUG [f7f93d1b] Command: if test ! -d /var/www/dev.privatir.com/releases; then echo "Directory does not exist '/var/www/dev.privatir.com/releases'" 1>&2; false; fi
+ DEBUG [854b6868] Finished in 0.926 seconds with exit status 0 (successful).
+  INFO [fb93391c] Running /usr/bin/env echo "Branch develop (at 1a6f22bacb34fec93c429c7ae9111a096272c662) deployed as release 20190407213808 by iillmaticc" >> /var/www/dev.privatir.com/revisions.log as deployer@dev.privatir.com
+ DEBUG [fb93391c] Command: cd /var/www/dev.privatir.com/releases && /usr/bin/env echo "Branch develop (at 1a6f22bacb34fec93c429c7ae9111a096272c662) deployed as release 20190407213808 by iillmaticc" >> /var/www/dev.privatir.com/revisions.log
+  INFO [404bd592] Finished in 0.347 seconds with exit status 0 (successful).
