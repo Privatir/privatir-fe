@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Cell, Row } from "@material/react-layout-grid";
 import colors from "../utils/colors";
+import MaterialIcon from "@material/react-material-icon";
 
 const StyledAnchor = styled(NavLink)`
   color: ${colors.secondaryColor};
@@ -18,10 +19,17 @@ const StyledAnchor = styled(NavLink)`
   }
 `;
 
-const PrimaryNav = () => {
+const PrimaryNav = props => {
   return (
-    <Row>
-      <Cell columns={8}>
+    <Row style={{ width: `100%`, margin: `` }}>
+      <Cell
+        style={{
+          display: `flex`,
+          alignItems: `center`,
+          justifyContent: `flex-start`
+        }}
+        columns={4}
+      >
         <svg
           width="150"
           height="100"
@@ -38,18 +46,15 @@ const PrimaryNav = () => {
         </svg>
       </Cell>
       <Cell
-        columns={4}
         style={{
-          justifyContent: `space-evenly`,
           display: `flex`,
-          alignItems: `center`
+          alignItems: `center`,
+          justifyContent: `flex-end`
         }}
+        columns={8}
       >
-        <StyledAnchor to="/product" activeClassName="active">
-          Product
-        </StyledAnchor>
-        <Button href="https://app.privatir.com/signin" outlined={true}>
-          Sign In
+        <Button outlined onClick={props.sideNavToggle}>
+          Subscribe
         </Button>
       </Cell>
     </Row>

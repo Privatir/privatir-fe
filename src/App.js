@@ -5,19 +5,29 @@ import "@material/react-button/dist/button.css";
 import "./App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import typography from "./utils/typography";
+import { ParallaxProvider } from "react-skrollr";
 
 import { Grid } from "@material/react-layout-grid";
 
 class App extends React.Component {
   render() {
     return (
-      <Router>
-        <Grid>
-          {typography.injectStyles()}{" "}
-          <Route path="/" exact component={Landing} />
-          <Route path="/product" exact component={Product} />
-        </Grid>
-      </Router>
+      <div style={{ height: `100%` }}>
+        <ParallaxProvider
+          init={{
+            smoothScrollingDuration: 1000,
+            smoothScrolling: true,
+            forceHeight: false
+          }}
+        >
+          <Router>
+            <div>
+              <Route path="/" exact component={Landing} />
+              <Route path="/product" exact component={Product} />
+            </div>
+          </Router>
+        </ParallaxProvider>
+      </div>
     );
   }
 }
