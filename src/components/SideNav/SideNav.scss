@@ -1,0 +1,18 @@
+@import "@material/react-drawer/index.scss";
+@import "@material/react-material-icon/index.scss";
+@import "@material/react-list/index.scss";
+
+button {
+  border: none;
+  outline: none;
+}
+.drawer-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.drawer-app-content {
+  flex: auto;
+  overflow: auto;
+}
