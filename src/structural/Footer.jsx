@@ -23,13 +23,15 @@ const Footer = () => {
       style={{
         display: `flex`,
         justifyContent: `center`,
-        alignItems: `center`
+        alignItems: `center`,
+        flexDirection: `column`
       }}
     >
       <hr
         style={{
           border: `0.01rem solid ${colors.primaryColor}`,
-          width: `80%`,
+          minWidth: `70%`,
+
           marginTop: `40px`
         }}
       />
@@ -40,8 +42,7 @@ const Footer = () => {
         style={{
           display: `flex`,
           justifyContent: `space-around`,
-          minWidth: `300px`,
-          maxWidth: `80%`
+          minWidth: `70%`
         }}
       >
         <FooterLink to="/" surrounding={`light`}>
