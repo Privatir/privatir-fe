@@ -111,8 +111,8 @@ const BackgroundParallax = () => {
               backgroundSize: `100% 100%`,
               backgroundPositionX: `center`,
               backgroundPositionY: `center`,
-              height: `500px`,
-              width: `100%`
+              height: `80vh`,
+              width: `100vw`
             }}
           />
         </Parallax>
@@ -121,7 +121,7 @@ const BackgroundParallax = () => {
             display: `flex`,
             justifyContent: `center`,
             position: `absolute`,
-            top: `60vh`,
+            top: `70vh`,
             left: `50%`
           }}
         >

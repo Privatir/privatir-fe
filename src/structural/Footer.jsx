@@ -40,7 +40,8 @@ const Footer = () => {
         style={{
           display: `flex`,
           justifyContent: `space-around`,
-          minWidth: `500px`
+          minWidth: `300px`,
+          maxWidth: `80%`
         }}
       >
         <FooterLink to="/" surrounding={`light`}>
