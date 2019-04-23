@@ -25,8 +25,8 @@ class App extends React.Component {
           >
             {typography.injectStyles()}
             <Route path="/" exact component={Landing} />
-            <Route path="/product/" exact component={Product} />
-            <Route path="/team/" exact component={Team} />
+            <Route path="/product/" component={Product} />
+            <Route path="/team/" component={Team} />
           </ParallaxProvider>
         </div>
       </Router>

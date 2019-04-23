@@ -6,6 +6,7 @@ import SideNav from "../../components/SideNav/SideNav";
 import CamAvatar from "../../static/img/cam-avatar.jpg";
 import JamesAvatar from "../../static/img/james-avatar.jpg";
 import MichaelAvatar from "../../static/img/michael-avatar.jpg";
+import colors from "../../utils/colors";
 import Card, { CardPrimaryContent } from "@material/react-card";
 import {
   Headline1 as H1,
@@ -35,20 +36,18 @@ class Team extends Component {
 
   render() {
     return (
-      <div
-        style={{ height: `100vh`, display: `flex`, flexDirection: `column` }}
-      >
+      <div style={{ height: `100vh` }}>
         <Cell phoneColumns={4}>
           <SideNav sideNavOpen={this.state.sideNavOpen} />
         </Cell>
         <Grid style={{ height: `100vh` }}>
           <PrimaryNav sideNavToggle={this.sideNavToggle} />
-          <Row>
+          <Row style={{ margin: `0px 15% 0px 15%` }}>
             <Cell phoneColumns={4} tabletColumns={8} desktopColumns={12}>
-              <H4 style={{ textAlign: `center` }}>Meet the Team</H4>
+              <H3 style={{ textAlign: `center` }}>Meet Our Team!</H3>
             </Cell>
-            <Cell phoneColumns={4}>
-              <Card>
+            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+              <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
                     display: `flex`,
@@ -70,7 +69,9 @@ class Team extends Component {
                     }}
                   />
                   <H4 style={{ fontWeight: `bold` }}>Cameron Rison</H4>
-                  <H6>Co-Founder + SWE</H6>
+                  <H6 style={{ color: `${colors.secondaryColorDark}` }}>
+                    Co-Founder + SWE
+                  </H6>
                   <B1>
                     Cam is a full stack SWE focused primarily on Infrastructure
                     and Site Reliability. He graduated from the University of
@@ -82,8 +83,8 @@ class Team extends Component {
                 </div>
               </Card>
             </Cell>
-            <Cell phoneColumns={4}>
-              <Card>
+            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+              <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
                     display: `flex`,
@@ -105,24 +106,23 @@ class Team extends Component {
                     }}
                   />
                   <H4 style={{ fontWeight: `bold` }}>James Thwing</H4>
-                  <H6>Co-Founder + Operations </H6>
+                  <H6 style={{ color: `${colors.secondaryColorDark}` }}>
+                    Co-Founder + Operations{" "}
+                  </H6>
                   <B1>
                     James has operational and finance experience in corporate
                     development, investment banking and private equity across a
-                    variety of industry verticals. In addition to Privatir,
-                    James also leads sourcing and investment due diligence at
-                    the SaaS-focused Private Debt and Equity firm Recurring
-                    Capital. James has held investment, operational and
-                    engineering roles at CrowdOut Capital, Westlake Securities
-                    and National Oilwell Varco James received a BS in Mechanical
-                    Engineering from the University of Texas at Austin and is
-                    currently pursuing an MBA at UT Austin.
+                    variety of industry verticals. He also leads sourcing and
+                    investment due diligence at the SaaS-focused Private Debt
+                    and Equity firm Recurring Capital. James received a BS in
+                    Mechanical Engineering from the University of Texas at
+                    Austin and is currently pursuing an MBA at UT Austin.
                   </B1>
                 </div>
               </Card>
             </Cell>
-            <Cell phoneColumns={4}>
-              <Card>
+            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+              <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
                     display: `flex`,
@@ -144,7 +144,9 @@ class Team extends Component {
                     }}
                   />
                   <H4 style={{ fontWeight: `bold` }}>Michael Crowther</H4>
-                  <H6>Co-Founder + SWE </H6>
+                  <H6 style={{ color: `${colors.secondaryColorDark}` }}>
+                    Co-Founder + SWE{" "}
+                  </H6>
                   <B1>
                     Michael is a full stack developer whose passionate about
                     technology, music, fitness, food and personal development. I
@@ -157,6 +159,7 @@ class Team extends Component {
               </Card>
             </Cell>
           </Row>
+          <Footer />
         </Grid>
       </div>
     );

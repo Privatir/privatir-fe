@@ -13,18 +13,26 @@ const FooterLink = styled(Link)`
   }
 `;
 
+const NavLogoMobile = styled.svg`
+  display: flex;
+`;
+
 const Footer = () => {
   return (
     <Row
       style={{
         display: `flex`,
         justifyContent: `center`,
-        alignItems: `center`,
-        position: `absolute`,
-        bottom: 0
+        alignItems: `center`
       }}
     >
-      <hr style={{ width: `100%` }} />
+      <hr
+        style={{
+          border: `0.01rem solid ${colors.primaryColor}`,
+          width: `80%`,
+          marginTop: `40px`
+        }}
+      />
       <Cell
         phoneColumns={4}
         tabletColumns={8}
@@ -38,6 +46,22 @@ const Footer = () => {
         <FooterLink to="/" surrounding={`light`}>
           Terms
         </FooterLink>
+        <NavLogoMobile
+          width="32"
+          height="50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          className="short"
+        >
+          <a href="/">
+            <image
+              xlinkHref="https://s3.amazonaws.com/privatir.com/privatir-shortform.svg"
+              height="50"
+              width="32"
+            />
+          </a>
+        </NavLogoMobile>
+
         <FooterLink to="/" surrounding={`light`}>
           {" "}
           Privacy

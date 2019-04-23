@@ -33,19 +33,20 @@ class Product extends Component {
             <SideNav sideNavOpen={this.state.sideNavOpen} />
           </Cell>
           <PrimaryNav sideNavToggle={this.sideNavToggle} />
-          <Row style={{ margin: `0px 15%` }}>
-            <Cell columns={4}>
+          <Row style={{ margin: `0px 15% 0px 15%` }}>
+            <Cell columns={12}>
               <div
                 style={{
                   display: `flex`,
-                  marginTop: `5rem`,
                   margin: `0 auto`,
                   justifyContent: `center`,
                   alignItems: `center`,
                   flexDirection: `column`
                 }}
               >
-                <H3>Fundraising shouldn't be a chore</H3>
+                <H3 style={{ fontWeight: `bold` }}>
+                  Fundraising shouldn't be a chore
+                </H3>
                 <ul>
                   <li>
                     <H6>Leave the opening salvos to us</H6>{" "}
@@ -97,6 +98,7 @@ class Product extends Component {
             </Cell>
           </Row>
         </Grid>
+        <Footer />
       </div>
     );
   }

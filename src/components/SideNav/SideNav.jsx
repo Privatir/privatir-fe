@@ -68,6 +68,7 @@ class SideNav extends Component {
               <StyledSideNavAnchor
                 style={{ display: `flex`, alignItems: `center` }}
                 to="/"
+                exact={true}
               >
                 <ListItemGraphic graphic={<MaterialIcon icon="home" />} />
                 <ListItemText primaryText="Home" />
@@ -77,6 +78,7 @@ class SideNav extends Component {
               <StyledSideNavAnchor
                 style={{ display: `flex`, alignItems: `center` }}
                 to="/product/"
+                exact={true}
               >
                 <ListItemGraphic graphic={<MaterialIcon icon="build" />} />
                 <ListItemText primaryText="Product" />
@@ -86,6 +88,7 @@ class SideNav extends Component {
               <StyledSideNavAnchor
                 to="/team/"
                 style={{ display: `flex`, alignItems: `center` }}
+                exact={true}
               >
                 <ListItemGraphic graphic={<MaterialIcon icon="group" />} />
                 <ListItemText primaryText="Team" />
