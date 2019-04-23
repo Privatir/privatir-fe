@@ -1,10 +1,17 @@
 import React, { Component } from "react";
+
 import Drawer, {
   DrawerHeader,
   DrawerTitle,
   DrawerContent,
   DrawerAppContent
 } from "@material/react-drawer";
+
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import colors from "../../utils/colors";
+
 import List, {
   ListItem,
   ListItemGraphic,
@@ -17,49 +24,76 @@ import "../SideNav/SideNav.scss";
 import MaterialIcon from "@material/react-material-icon";
 import Button from "@material/react-button";
 
+const StyledSideNavAnchor = styled(NavLink)`
+  color: ${colors.secondaryColor};
+  text-decoration: none;
+
+  &.active {
+    color: ${colors.primaryColor};
+    border: none;
+    display: inline-block;
+  }
+`;
+
 class SideNav extends Component {
   mainContentElem = React.createRef();
 
   constructor(props) {
     super(props);
+    this.state = {
+      selectedIndex: 0
+    };
   }
 
   onDrawerClose = () => {
     this.setState({ open: false });
     this.focusFirstFocusableItem();
   };
+
+  onClick = () => {
+    this.props.sideNavToggle();
+  };
+
   render() {
     return (
-      <div className="drawer-container">
-        <Drawer dismissible open={this.props.open}>
-          <DrawerHeader>
-            <DrawerTitle tag="h2">Privatir</DrawerTitle>
-          </DrawerHeader>
-          <DrawerContent>
-            <ListGroup>
-              <ListGroupSubheader tag="h2">
-                What We're Building
-              </ListGroupSubheader>
-              <List>
-                <ListItem onClick={this.onListItemClick}>
-                  <ListItemGraphic graphic={<MaterialIcon icon="build" />} />
-                  <ListItemText primaryText="Product" />
-                </ListItem>
-              </List>
-            </ListGroup>
-            <ListDivider tag="div" />
-            <ListGroup>
-              <ListGroupSubheader tag="h2">Who We Are</ListGroupSubheader>
-              <List>
-                <ListItem onClick={this.onListItemClick}>
-                  <ListItemGraphic graphic={<MaterialIcon icon="group" />} />
-                  <ListItemText primaryText="Team" />
-                </ListItem>
-              </List>
-            </ListGroup>
-          </DrawerContent>
-        </Drawer>
-      </div>
+      <Drawer
+        dismissible
+        open={this.props.sideNavOpen}
+        style={{ zIndex: `100` }}
+      >
+        <List singleSelection selectedIndex={this.state.selectedIndex}>
+          <ListGroup>
+            {" "}
+            <ListItem>
+              <StyledSideNavAnchor
+                style={{ display: `flex`, alignItems: `center` }}
+                to="/"
+              >
+                <ListItemGraphic graphic={<MaterialIcon icon="home" />} />
+                <ListItemText primaryText="Home" />
+              </StyledSideNavAnchor>
+            </ListItem>
+            <ListItem>
+              <StyledSideNavAnchor
+                style={{ display: `flex`, alignItems: `center` }}
+                to="/product/"
+              >
+                <ListItemGraphic graphic={<MaterialIcon icon="build" />} />
+                <ListItemText primaryText="Product" />
+              </StyledSideNavAnchor>
+            </ListItem>
+            <ListItem>
+              <StyledSideNavAnchor
+                to="/team/"
+                style={{ display: `flex`, alignItems: `center` }}
+              >
+                <ListItemGraphic graphic={<MaterialIcon icon="group" />} />
+                <ListItemText primaryText="Team" />
+              </StyledSideNavAnchor>
+            </ListItem>
+          </ListGroup>
+        </List>
+      </Drawer>
     );
   }
 }

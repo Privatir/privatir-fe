@@ -12,8 +12,8 @@ parnassusTheme.overrideStyles = ({ rhythm }, options) => ({
     color: `${colors.primaryColor}`,
     textDecoration: "none"
   },
-  "a:active": {
-    borderBottom: `4px solid currentColor`
+  "a.active": {
+    borderBottom: `4px solid ${colors.primaryColor}`
   }
 });
 

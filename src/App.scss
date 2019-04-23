@@ -1,12 +1,39 @@
 @import "@material/react-layout-grid/index.scss";
-@import "@material/react-typography/index.scss";
-@import "materialize-css/sass/materialize.scss";
 
-$mdc-typography-font-family: "Raleway";
+$mdc-typography-font-family: "Poppins";
+
+$mdc-typography-styles-headline1: (
+  font-size: 42px,
+  line-height: 1em
+);
+$mdc-typography-styles-headline3: (
+  font-size: 32px,
+  line-height: 1em
+);
+$mdc-typography-styles-headline4: (
+  font-size: 24px,
+  line-height: 1em
+);
+$mdc-typography-styles-headline6: (
+  font-size: 18px,
+  line-height: 1em
+);
+
 @import "@material/react-typography/index.scss";
 
 body,
 html {
   background: rgb(255, 255, 255);
   height: 100%;
+  width: 100%;
+  background: #fbf6f5;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }

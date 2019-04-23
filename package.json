@@ -5,7 +5,9 @@
   "dependencies": {
     "@babel/core": "7.2.2",
     "@material/react-button": "^0.10.0",
+    "@material/react-card": "^0.11.0",
     "@material/react-drawer": "^0.11.0",
+    "@material/react-icon-button": "^0.11.0",
     "@material/react-layout-grid": "^0.8.0",
     "@material/react-list": "^0.11.0",
     "@material/react-typography": "^0.11.0",
