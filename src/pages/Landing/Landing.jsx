@@ -256,8 +256,10 @@ const MainContent = () => {
               join us!
             </H6>
 
-            <Button href={"/product"} style={{ minHeight: `50px` }} outlined>
-              Check out what we're building
+            <Button style={{ minHeight: `70px` }} outlined>
+              <Link to="/product/">
+                <H6>Check out what we're building</H6>
+              </Link>
             </Button>
           </div>
         </Cell>
