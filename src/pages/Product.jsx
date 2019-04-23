@@ -97,8 +97,8 @@ class Product extends Component {
               </div>
             </Cell>
           </Row>
+          <Footer />
         </Grid>
-        <Footer />
       </div>
     );
   }

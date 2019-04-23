@@ -9,8 +9,8 @@
 /coverage
 
 #logs
-logs/*
-./log/*
+logs/
+log/
 
 # production
 /build
