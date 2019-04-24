@@ -256,9 +256,22 @@ const MainContent = () => {
               join us!
             </H6>
 
-            <Button style={{ minHeight: `70px` }} outlined>
+            <Button
+              style={{
+                minHeight: `70px`,
+                display: `flex`,
+                alignItems: `center`
+              }}
+              outlined
+            >
               <Link to="/product/">
-                <H6>Check out what we're building</H6>
+                <H6
+                  style={{
+                    margin: `0px`
+                  }}
+                >
+                  Check out what we're building
+                </H6>
               </Link>
             </Button>
           </div>

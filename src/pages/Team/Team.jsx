@@ -46,7 +46,7 @@ class Team extends Component {
             <Cell phoneColumns={4} tabletColumns={8} desktopColumns={12}>
               <H3 style={{ textAlign: `center` }}>Meet Our Team!</H3>
             </Cell>
-            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+            <Cell phoneColumns={4} tabletColumns={8} desktopColumns={6}>
               <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
@@ -83,7 +83,7 @@ class Team extends Component {
                 </div>
               </Card>
             </Cell>
-            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+            <Cell phoneColumns={4} tabletColumns={8} desktopColumns={6}>
               <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
@@ -121,7 +121,7 @@ class Team extends Component {
                 </div>
               </Card>
             </Cell>
-            <Cell phoneColumns={4} tabletColumns={6} desktopColumns={6}>
+            <Cell phoneColumns={4} tabletColumns={8} desktopColumns={6}>
               <Card style={{ maxWidth: `500px` }}>
                 <div
                   style={{
