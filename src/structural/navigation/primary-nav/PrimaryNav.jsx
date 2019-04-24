@@ -1,9 +1,8 @@
 import React from "react";
-import Button from "@material/react-button";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Cell, Row } from "@material/react-layout-grid";
-import colors from "../utils/colors";
+import colors from "../../../utils/colors";
 import MaterialIcon from "@material/react-material-icon";
 import IconButton from "@material/react-icon-button";
 

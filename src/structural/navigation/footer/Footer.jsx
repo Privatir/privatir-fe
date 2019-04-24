@@ -1,7 +1,7 @@
 import { Cell, Row } from "@material/react-layout-grid";
 import { Link } from "react-router-dom";
 import React from "react";
-import colors from "../utils/colors";
+import colors from "../../../utils/colors";
 import styled from "styled-components";
 
 const FooterLink = styled(Link)`

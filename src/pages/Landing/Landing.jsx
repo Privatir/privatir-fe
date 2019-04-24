@@ -1,42 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Cell, Row } from "@material/react-layout-grid";
-import PrimaryNav from "../../structural/PrimaryNav";
-import SideNav from "../../components/SideNav/SideNav";
-import Footer from "../../structural/Footer";
-import Drawer, {
-  DrawerAppContent,
-  DrawerContent,
-  DrawerHeader,
-  DrawerTitle
-} from "@material/react-drawer";
-import colors from "../../utils/colors";
+import PrimaryNav from "../../structural/navigation/primary-nav/PrimaryNav";
+import SideNav from "../../structural/navigation/side-nav/SideNav";
+import Footer from "../../structural/navigation/footer/Footer";
 import lifepreserver from "../../static/img/1x/lifepreserver.png";
 import background from "../../static/img/SVG/1x/waves.png";
 import Button from "@material/react-button";
 import { Grid } from "@material/react-layout-grid";
-import Card, { CardPrimaryContent } from "@material/react-card";
+import Card from "@material/react-card";
 import {
   Headline1 as H1,
-  Headline2 as H2,
   Headline3 as H3,
   Headline4 as H4,
-  Headline5 as H5,
   Headline6 as H6,
   Body1 as B1,
-  Body2 as B2,
-  Subtitle1 as S1,
   Subtitle2 as S2
 } from "@material/react-typography";
-import "../../App.scss";
 import { Parallax } from "react-skrollr";
-import "../Landing/Landing.scss";
 import MaterialIcon from "@material/react-material-icon";
-import List, {
-  ListItem,
-  ListItemGraphic,
-  ListItemText
-} from "@material/react-list";
 
 const Testimonial = () => {
   return (
@@ -132,6 +114,7 @@ const BackgroundParallax = () => {
               zIndex: `9`
             }}
             src={lifepreserver}
+            alt="life-preserver"
           />
         </div>
       </section>

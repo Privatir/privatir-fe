@@ -1,6 +1,4 @@
-@import "@material/react-layout-grid/index.scss";
-
-$mdc-typography-font-family: "Poppins";
+$mdc-typography-font-family: "Poppins", sans-serif;
 
 $mdc-typography-styles-headline1: (
   font-size: 42px,
@@ -19,6 +17,11 @@ $mdc-typography-styles-headline6: (
   line-height: 1.8em
 );
 
+@import "@material/react-layout-grid/index.scss";
+@import "@material/react-button/index.scss";
+@import "@material/react-icon-button/index.scss";
+@import "@material/react-material-icon/index.scss";
+@import "@material/react-card/index.scss";
 @import "@material/react-typography/index.scss";
 
 body,

@@ -1,24 +1,18 @@
 import React, { Component } from "react";
-import PrimaryNav from "../../structural/PrimaryNav";
-import Footer from "../../structural/Footer";
+import PrimaryNav from "../../structural/navigation/primary-nav/PrimaryNav";
+import Footer from "../../structural/navigation/footer/Footer";
 import { Grid, Row, Cell } from "@material/react-layout-grid";
-import SideNav from "../../components/SideNav/SideNav";
+import SideNav from "../../structural/navigation/side-nav/SideNav";
 import CamAvatar from "../../static/img/cam-avatar.jpg";
 import JamesAvatar from "../../static/img/james-avatar.jpg";
 import MichaelAvatar from "../../static/img/michael-avatar.jpg";
 import colors from "../../utils/colors";
-import Card, { CardPrimaryContent } from "@material/react-card";
+import Card from "@material/react-card";
 import {
-  Headline1 as H1,
-  Headline2 as H2,
   Headline3 as H3,
   Headline4 as H4,
-  Headline5 as H5,
   Headline6 as H6,
-  Body1 as B1,
-  Body2 as B2,
-  Subtitle1 as S1,
-  Subtitle2 as S2
+  Body1 as B1
 } from "@material/react-typography";
 
 class Team extends Component {
@@ -67,6 +61,7 @@ class Team extends Component {
                       marginTop: `20px`,
                       borderRadius: `1000px`
                     }}
+                    alt="cam-founder-avatar"
                   />
                   <H4 style={{ fontWeight: `bold` }}>Cameron Rison</H4>
                   <H6 style={{ color: `${colors.secondaryColorDark}` }}>
@@ -104,6 +99,7 @@ class Team extends Component {
                       marginTop: `20px`,
                       borderRadius: `1000px`
                     }}
+                    alt="james-founder-avatar"
                   />
                   <H4 style={{ fontWeight: `bold` }}>James Thwing</H4>
                   <H6 style={{ color: `${colors.secondaryColorDark}` }}>
@@ -142,6 +138,7 @@ class Team extends Component {
                       marginTop: `20px`,
                       borderRadius: `1000px`
                     }}
+                    alt="michael-founder-avatar"
                   />
                   <H4 style={{ fontWeight: `bold` }}>Michael Crowther</H4>
                   <H6 style={{ color: `${colors.secondaryColorDark}` }}>

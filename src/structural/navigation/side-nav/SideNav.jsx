@@ -1,28 +1,19 @@
 import React, { Component } from "react";
 
-import Drawer, {
-  DrawerHeader,
-  DrawerTitle,
-  DrawerContent,
-  DrawerAppContent
-} from "@material/react-drawer";
+import Drawer from "@material/react-drawer";
 
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import colors from "../../utils/colors";
+import colors from "../../../utils/colors";
 
 import List, {
   ListItem,
   ListItemGraphic,
   ListItemText,
-  ListGroup,
-  ListGroupSubheader,
-  ListDivider
+  ListGroup
 } from "@material/react-list";
-import "../SideNav/SideNav.scss";
+import "./SideNav.scss";
 import MaterialIcon from "@material/react-material-icon";
-import Button from "@material/react-button";
 
 const StyledSideNavAnchor = styled(NavLink)`
   color: ${colors.secondaryColor};

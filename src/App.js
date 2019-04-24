@@ -1,14 +1,11 @@
 import React from "react";
-import Product from "./pages/Product";
-import Team from "./pages/Team/Team";
-import Landing from "./pages/Landing/Landing";
-import "@material/react-button/dist/button.css";
-import "./App.scss";
+import Product from "./pages/product/Product";
+import Team from "./pages/team/Team";
+import Landing from "./pages/landing/Landing.jsx";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import typography from "./utils/typography";
 import { ParallaxProvider } from "react-skrollr";
-import Footer from "./structural/Footer";
-import { Grid } from "@material/react-layout-grid";
+import "./App.scss";
 
 class App extends React.Component {
   render() {
