@@ -28,10 +28,10 @@ class Product extends Component {
   render() {
     return (
       <div style={{ height: `100vh` }}>
+        <Cell columns={4}>
+          <SideNav sideNavOpen={this.state.sideNavOpen} />
+        </Cell>
         <Grid style={{ height: `100vh` }}>
-          <Cell columns={4}>
-            <SideNav sideNavOpen={this.state.sideNavOpen} />
-          </Cell>
           <PrimaryNav sideNavToggle={this.sideNavToggle} />
           <Row style={{ margin: `0px 15% 0px 15%` }}>
             <Cell columns={12}>
