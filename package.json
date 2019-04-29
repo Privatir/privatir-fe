@@ -45,9 +45,7 @@
     "typography": "^0.16.18",
     "typography-theme-parnassus": "^0.16.19",
     "url-loader": "1.1.2",
-    "velocity-react": "^1.4.1"
-  },
-  "devDependencies": {
+    "velocity-react": "^1.4.1",
     "@babel/core": "^7.2.2",
     "@svgr/webpack": "^4.2.0",
     "babel": "^6.23.0",
