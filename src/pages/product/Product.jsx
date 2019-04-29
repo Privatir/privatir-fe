@@ -3,13 +3,15 @@ import PrimaryNav from "../../structural/navigation/primary-nav/PrimaryNav";
 import SideNav from "../../structural/navigation/side-nav/SideNav";
 import Footer from "../../structural/navigation/footer/Footer";
 import { Grid, Cell, Row } from "@material/react-layout-grid";
+import colors from "../../utils/colors";
 import {
   Headline3 as H3,
   Headline4 as H4,
-  Headline5 as H5,
   Headline6 as H6,
   Body1 as B1
 } from "@material/react-typography";
+import MarketSizeImage from "../../../src/static/img/market-size.png";
+import ProductRoadmapImage from "../../../src/static/img/product-roadmap.png";
 
 class Product extends Component {
   constructor(props) {
@@ -34,7 +36,7 @@ class Product extends Component {
         <Grid style={{ height: `100vh` }}>
           <PrimaryNav sideNavToggle={this.sideNavToggle} />
           <Row style={{ margin: `0px 15% 0px 15%` }}>
-            <Cell columns={12}>
+            <Cell desktopColumns={12} phoneColumns={4} tabletColumns={8}>
               <div
                 style={{
                   display: `flex`,
@@ -44,33 +46,35 @@ class Product extends Component {
                   flexDirection: `column`
                 }}
               >
-                <H3 style={{ fontWeight: `bold` }}>
+                <H3 style={{ fontWeight: `bold`, textAlign: `center` }}>
                   Fundraising shouldn't be a chore
                 </H3>
-                <ul>
-                  <li>
-                    <H6>Leave the opening salvos to us</H6>{" "}
-                  </li>
-                  <li>
-                    <H6>Consolidate your channel(s) of communication</H6>{" "}
-                  </li>
-                  <li>
-                    <H6>Reclaim your precious time and energy</H6>{" "}
-                  </li>
-                  <li>
-                    <H6>
-                      Get back to doing what you do best — building really great
-                      products and services{" "}
-                    </H6>
-                  </li>
-                </ul>
+                <H6 style={{ textAlign: `center`, width: `90%` }}>
+                  Leave the opening salvos to us. Consolidate your channel(s) of
+                  communication, reclaim your precious time and energy and get
+                  back to doing what you do best — building really great
+                  products and services .
+                </H6>
+              </div>
+            </Cell>
+            <Cell desktopColumns={12} tabletColumns={8}>
+              <div style={{ display: `flex`, justifyContent: `center` }}>
+                <hr
+                  style={{
+                    border: `0.01rem solid ${colors.primaryColor}`,
+                    width: `30%`,
+                    marginTop: `40px`
+                  }}
+                />
               </div>
             </Cell>
           </Row>
-          <Row style={{ margin: `0px 15%` }}>
-            <Cell columns={4}>
-              <H4>Do one thing, and do it well.</H4>
-              <B1>
+          <Row style={{ margin: `100px 15%` }}>
+            <Cell desktopColumns={4} tabletColumns={8}>
+              <H4 style={{ textAlign: `center` }}>
+                Do one thing, and do it well.
+              </H4>
+              <B1 style={{ textAlign: `center` }}>
                 The scope of the utility Privatir will provide you is narrow by
                 design: provide a single interface to collect, organize and
                 eventually reference investor inquiries and the breadcrumbs of
@@ -78,23 +82,102 @@ class Product extends Component {
                 YOU are ready.
               </B1>
             </Cell>
-            <Cell columns={4}>
+            <Cell desktopColumns={4} tabletColumns={8}>
               <div style={{ display: `flex`, flexDirection: `column` }}>
-                <H5>Collect, Order, Reference</H5>
-                <B1>
+                <H4 style={{ textAlign: `center` }}>
+                  Collect, Order, Reference
+                </H4>
+                <B1 style={{ textAlign: `center` }}>
                   Privatir aims to stand between you and what at times feels
                   like a ceaseless onslaught.
                 </B1>
               </div>
             </Cell>
-            <Cell columns={4}>
+            <Cell desktopColumns={4} tabletColumns={8}>
               <div style={{ display: `flex`, flexDirection: `column` }}>
-                <H5>Know who and what you're engaging with</H5>
-                <B1>
+                <H4 style={{ textAlign: `center` }}>Know the who and what</H4>
+                <B1 style={{ textAlign: `center` }}>
                   What good is a network if you can't tap into it quickly and
                   easily? Don't make it an email excavation project!
                 </B1>
               </div>
+            </Cell>
+            <Cell desktopColumns={12} tabletColumns={8}>
+              <div style={{ display: `flex`, justifyContent: `center` }}>
+                <hr
+                  style={{
+                    border: `0.01rem solid ${colors.primaryColor}`,
+                    width: `30%`,
+                    marginTop: `40px`
+                  }}
+                />
+              </div>
+            </Cell>
+          </Row>
+
+          <Row
+            style={{
+              margin: `100px 15% 0px 15%`
+            }}
+          >
+            <Cell desktopColumns={7} tabletColumns={8}>
+              <img
+                style={{
+                  width: `100%`,
+                  height: `50%`,
+                  zIndex: `9`
+                }}
+                src={MarketSizeImage}
+                alt="market-size"
+              />
+            </Cell>
+            <Cell desktopColumns={5} tabletColumns={8}>
+              <H4>Market Dynamics</H4>
+              <H6>
+                The long term trends point toward a continued expansion of the
+                PE/VC flavor of early-stage investment.
+              </H6>
+              <H6>
+                Executives and decision makers who have the deepest insights
+                into this currently disjointed space will be best positioned to
+                capitalize and locate investment partners best aligned with the
+                goals and direction of their respective organizations.
+              </H6>
+            </Cell>
+            <Cell desktopColumns={12} tabletColumns={8}>
+              <div style={{ display: `flex`, justifyContent: `center` }}>
+                <hr
+                  style={{
+                    border: `0.01rem solid ${colors.primaryColor}`,
+                    width: `30%`,
+                    marginTop: `40px`
+                  }}
+                />
+              </div>
+            </Cell>
+          </Row>
+          <Row
+            style={{
+              margin: `100px 15% 0px 15%`
+            }}
+          >
+            <Cell desktopColumns={5} tabletColumns={8}>
+              <H4 style={{ textAlign: `center` }}>Proposed Product Roadmap</H4>
+              <H6 style={{ textAlign: `center` }}>
+                See where we're headed in the near term. Stay tuned for more
+                soon!
+              </H6>
+            </Cell>
+            <Cell desktopColumns={7} tabletColumns={8}>
+              <img
+                style={{
+                  width: `100%`,
+                  height: `50%`,
+                  zIndex: `9`
+                }}
+                src={ProductRoadmapImage}
+                alt="product-roadmap"
+              />
             </Cell>
           </Row>
           <Footer />

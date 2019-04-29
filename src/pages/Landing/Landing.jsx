@@ -7,6 +7,7 @@ import Footer from "../../structural/navigation/footer/Footer";
 import lifepreserver from "../../static/img/1x/lifepreserver.png";
 import background from "../../static/img/SVG/1x/waves.png";
 import Button from "@material/react-button";
+import TextField, { Input } from "@material/react-text-field";
 import { Grid } from "@material/react-layout-grid";
 import Card from "@material/react-card";
 import {
@@ -19,6 +20,7 @@ import {
 } from "@material/react-typography";
 import { Parallax } from "react-skrollr";
 import MaterialIcon from "@material/react-material-icon";
+import fetch from "isomorphic-fetch";
 
 const Testimonial = () => {
   return (
@@ -243,7 +245,8 @@ const MainContent = () => {
               style={{
                 minHeight: `70px`,
                 display: `flex`,
-                alignItems: `center`
+                alignItems: `center`,
+                marginTop: `10px`
               }}
               outlined
             >
@@ -263,6 +266,109 @@ const MainContent = () => {
     </div>
   );
 };
+
+class EmailNotification extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: ``
+    };
+  }
+
+  onChange = e => {
+    this.setState({ value: e.target.value });
+  };
+
+  postData = (url = ``, data = {}) => {
+    // Default options are marked with *
+    return fetch(url, {
+      method: "POST", // *GET, POST, PUT, DELETE, etc.
+      mode: "cors", // no-cors, cors, *same-origin
+      cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+      headers: {
+        "Content-Type": "application/json"
+        // "Content-Type": "application/x-www-form-urlencoded",
+      },
+      redirect: "follow", // manual, *follow, error
+      referrer: "no-referrer", // no-referrer, *client
+      body: JSON.stringify(data) // body data type must match "Content-Type" header
+    }).then(response => {
+      return response.json();
+    });
+    // parses JSON response into native Javascript objects
+  };
+
+  onSubmit = e => {
+    this.postData(`http://localhost:8080/api/newsletter_subscribe`, {
+      email: this.state.value
+    })
+      .then(data => console.log(data)) // JSON-string from `response.json()` call
+      .catch(error => console.error(error));
+
+    e.preventDefault();
+  };
+
+  render() {
+    return (
+      <Row
+        style={{
+          margin: `0px 15% 0px 15%`,
+          textAlign: `center`
+        }}
+      >
+        <Cell
+          desktopColumns={12}
+          tabletColumns={8}
+          style={{ display: `flex`, flexDirection: `column` }}
+        >
+          <H3>Coming Soon!</H3>
+          <H4>We're working hard to get this product to launch!</H4>
+          <H6>Join our newsletter and we'll keep you posted.</H6>
+          <div
+            style={{
+              display: `flex`,
+              alignItems: `center`,
+              justifyContent: `center`,
+              width: `100%`,
+              marginTop: `50px`,
+              marginBottom: `150px`
+            }}
+          >
+            <div
+              style={{ width: `500px`, maxWidth: `100%`, position: `absolute` }}
+            >
+              <form onSubmit={this.onSubmit}>
+                <TextField
+                  label="Please enter your email."
+                  style={{ borderRadius: `50px`, width: `100%` }}
+                >
+                  <Input
+                    style={{ background: `#FFFFFF` }}
+                    value={this.state.value}
+                    onChange={this.onChange}
+                    type="email"
+                    required
+                  />
+                </TextField>
+                <Button
+                  style={{
+                    position: `absolute`,
+                    right: 0,
+                    borderRadius: `50px`,
+                    height: `56px`
+                  }}
+                  outlined
+                >
+                  Subscribe
+                </Button>
+              </form>
+            </div>
+          </div>
+        </Cell>
+      </Row>
+    );
+  }
+}
 
 class Landing extends Component {
   constructor(props) {
@@ -296,6 +402,7 @@ class Landing extends Component {
         <BackgroundParallax />
         <MainContent />
         <Testimonial />
+        <EmailNotification />
         <Footer />
       </div>
     );
