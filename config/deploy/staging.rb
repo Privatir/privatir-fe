@@ -36,7 +36,6 @@
 # ------------------------------------
 server 'dev.privatir.com',
        user: 'deployer',
-       roles: %w[app],
        ssh_options: {
          user: 'deployer', # overrides user setting above
          keys: %w[/Users/iillmaticc/.ssh/id_ed25519],
