@@ -317,8 +317,14 @@ class EmailNotification extends Component {
       referrer: "no-referrer", // no-referrer, *client
       body: JSON.stringify(data) // body data type must match "Content-Type" header
     }).then(response => {
-      return response.json();
+      console.log(response);
+      if (response.ok) {
+        return response.json();
+      } else {
+        return response;
+      }
     });
+
     // parses JSON response into native Javascript objects
   };
 
@@ -334,13 +340,15 @@ class EmailNotification extends Component {
         this.setState({ email: "" });
         if (data.status === "202" || data.status === "200") {
           this.setState({ submitted: true });
+          return data;
         } else {
           this.setState({ submitted: true, submissionError: true });
+          return data;
         }
       })
       .catch(error => {
-        this.setState({ submitted: true });
-        this.console.error(error);
+        this.setState({ submitted: true, submissionError: true });
+        console.error(error);
       });
 
     e.preventDefault();
