@@ -25,6 +25,14 @@ $mdc-typography-styles-headline6: (
 @import "@material/react-typography/index.scss";
 @import "@material/react-text-field/index.scss";
 
+@import "@material/react-fab/index.scss";
+
+$color: (#ffffff);
+
+.mdc-fab {
+  @include mdc-fab-container-color($color);
+}
+
 body,
 html {
   background: rgb(255, 255, 255);

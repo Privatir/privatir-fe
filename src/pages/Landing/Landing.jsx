@@ -9,7 +9,9 @@ import background from "../../static/img/SVG/1x/waves.png";
 import Button from "@material/react-button";
 import TextField, { Input } from "@material/react-text-field";
 import { Grid } from "@material/react-layout-grid";
+import styled, { keyframes } from "styled-components";
 import Card from "@material/react-card";
+import Fab from "@material/react-fab";
 import {
   Headline1 as H1,
   Headline3 as H3,
@@ -267,28 +269,50 @@ const MainContent = () => {
   );
 };
 
+const fadein = keyframes`
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+`;
+
+const SubscriptionMessage = styled.div`
+  animation: ${fadein} 1s ease-in;
+
+  display: ${props => (props.submitted ? `flex` : `none`)};
+  justify-content: center;
+  align-items: center;
+`;
+
+const SubscriptionInput = styled.div`
+  display: ${props => (!props.submitted ? `flex` : `none`)};
+`;
+
 class EmailNotification extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: ``
+      email: ``,
+      submitted: false,
+      submissionError: false
     };
   }
 
   onChange = e => {
-    this.setState({ value: e.target.value });
+    this.setState({ email: e.target.value });
   };
 
-  postData = (url = ``, data = {}) => {
+  postData = (url = "", data = {}) => {
     // Default options are marked with *
+    const headers = new Headers();
+    headers.append("Content-Type", "application/json");
     return fetch(url, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
-      mode: "cors", // no-cors, cors, *same-origin
+      cors: "same-origin",
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-      headers: {
-        "Content-Type": "application/json"
-        // "Content-Type": "application/x-www-form-urlencoded",
-      },
+      headers: headers,
       redirect: "follow", // manual, *follow, error
       referrer: "no-referrer", // no-referrer, *client
       body: JSON.stringify(data) // body data type must match "Content-Type" header
@@ -298,12 +322,26 @@ class EmailNotification extends Component {
     // parses JSON response into native Javascript objects
   };
 
+  onFabClick = e => {
+    window.location.reload();
+  };
+
   onSubmit = e => {
     this.postData(`http://localhost:8080/api/newsletter_subscribe`, {
-      email: this.state.value
+      email: this.state.email
     })
-      .then(data => console.log(data)) // JSON-string from `response.json()` call
-      .catch(error => console.error(error));
+      .then(data => {
+        this.setState({ email: "" });
+        if (data.status === "202" || data.status === "200") {
+          this.setState({ submitted: true });
+        } else {
+          this.setState({ submitted: true, submissionError: true });
+        }
+      })
+      .catch(error => {
+        this.setState({ submitted: true });
+        this.console.error(error);
+      });
 
     e.preventDefault();
   };
@@ -335,32 +373,77 @@ class EmailNotification extends Component {
             }}
           >
             <div
-              style={{ width: `500px`, maxWidth: `100%`, position: `absolute` }}
+              style={{
+                width: `500px`,
+                maxWidth: `100%`,
+                position: `absolute`
+              }}
             >
               <form onSubmit={this.onSubmit}>
-                <TextField
-                  label="Please enter your email."
-                  style={{ borderRadius: `50px`, width: `100%` }}
-                >
-                  <Input
-                    style={{ background: `#FFFFFF` }}
-                    value={this.state.value}
-                    onChange={this.onChange}
-                    type="email"
-                    required
+                <SubscriptionInput submitted={this.state.submitted}>
+                  <TextField
+                    label="Please enter your email."
+                    style={{ borderRadius: `50px`, width: `100%` }}
+                  >
+                    <Input
+                      style={{ background: `#FFFFFF` }}
+                      value={this.state.email}
+                      name="subscribe"
+                      onChange={this.onChange}
+                      type="email"
+                      required
+                    />
+                  </TextField>
+                  <Button
+                    style={{
+                      position: `absolute`,
+                      right: 0,
+                      borderRadius: `50px`,
+                      height: `56px`
+                    }}
+                    outlined
+                  >
+                    Subscribe
+                  </Button>
+                </SubscriptionInput>
+                <SubscriptionMessage submitted={this.state.submitted}>
+                  <Fab
+                    onClick={this.onFabClick}
+                    mini
+                    icon={
+                      this.state.submitted && !this.state.submissionError ? (
+                        <MaterialIcon
+                          style={{ color: `#018786` }}
+                          icon="check"
+                        />
+                      ) : (
+                        <MaterialIcon
+                          icon="clear"
+                          style={{ color: `#d82717` }}
+                        />
+                      )
+                    }
                   />
-                </TextField>
-                <Button
-                  style={{
-                    position: `absolute`,
-                    right: 0,
-                    borderRadius: `50px`,
-                    height: `56px`
-                  }}
-                  outlined
-                >
-                  Subscribe
-                </Button>
+                  {this.state.submitted && !this.state.submissionError ? (
+                    <H6
+                      style={{
+                        margin: `0px 0px 0px 15px`,
+                        fontWeight: `bold`
+                      }}
+                    >
+                      You're now subscribed!
+                    </H6>
+                  ) : (
+                    <H6
+                      style={{
+                        margin: `0px 0px 0px 15px`,
+                        fontWeight: `bold`
+                      }}
+                    >
+                      Something went wrong! Please try again.
+                    </H6>
+                  )}
+                </SubscriptionMessage>
               </form>
             </div>
           </div>
