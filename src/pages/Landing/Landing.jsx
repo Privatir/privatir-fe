@@ -310,7 +310,7 @@ class EmailNotification extends Component {
     headers.append("Content-Type", "application/json");
     return fetch(url, {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
-      cors: "same-origin",
+      cors: "cors",
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
       headers: headers,
       redirect: "follow", // manual, *follow, error
