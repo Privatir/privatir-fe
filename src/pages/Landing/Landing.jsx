@@ -333,7 +333,7 @@ class EmailNotification extends Component {
   };
 
   onSubmit = e => {
-    this.postData(`http://localhost:8080/api/newsletter_subscribe`, {
+    this.postData(`https://api.privatir.com/api/newsletter_subscribe`, {
       email: this.state.email
     })
       .then(data => {

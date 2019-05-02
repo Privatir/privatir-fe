@@ -34,6 +34,7 @@
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
+set :deploy_to, '/var/www/dev.privatir.com'
 server 'dev.privatir.com',
        user: 'deployer',
        ssh_options: {
