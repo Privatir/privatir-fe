@@ -56,17 +56,17 @@ const Testimonial = () => {
               "We've received probably 50 emails from potential private equity
               and venture capital investors in the last 6 months.
             </H6>
-            <S2 style={{ alignSelf: `center` }}>— Bill Gates</S2>
+            <S2 style={{ alignSelf: `center` }} />
             <H6>
               "I just don't have time to respond to all of the private equity
               shops. I'm just trying to run my business."
             </H6>
-            <S2 style={{ alignSelf: `center` }}>— Warren Buffet</S2>
+            <S2 style={{ alignSelf: `center` }} />
             <H6>
               "I'm not ready to take on outside investment yet. Especially from
               the coasts."
             </H6>
-            <S2 style={{ alignSelf: `center` }}>— Mark Cuban</S2>
+            <S2 style={{ alignSelf: `center` }} />
           </div>
         </Card>
       </Cell>

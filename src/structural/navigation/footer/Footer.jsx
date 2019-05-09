@@ -45,9 +45,6 @@ const Footer = () => {
           minWidth: `70%`
         }}
       >
-        <FooterLink to="/" surrounding={`light`}>
-          Terms
-        </FooterLink>
         <NavLogoMobile
           width="32"
           height="50"
@@ -63,11 +60,6 @@ const Footer = () => {
             />
           </a>
         </NavLogoMobile>
-
-        <FooterLink to="/" surrounding={`light`}>
-          {" "}
-          Privacy
-        </FooterLink>
       </Cell>
     </Row>
   );
