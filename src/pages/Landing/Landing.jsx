@@ -57,7 +57,7 @@ const Testimonial = () => {
               and venture capital investors in the last 6 months.
             </H6>
             <S2 style={{ alignSelf: `center` }}>
-              — BSB Sales Enablement SaaS CEO
+              — BSB Sales Enablement CEO
             </S2>
             <H6>
               "I just don't have time to respond to all of the private equity
