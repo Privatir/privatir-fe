@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.d80e69b7.chunk.css",
-  "main.js": "/static/js/main.ae5e5d84.chunk.js",
-  "main.js.map": "/static/js/main.ae5e5d84.chunk.js.map",
+  "main.js": "/static/js/main.b085c3d0.chunk.js",
+  "main.js.map": "/static/js/main.b085c3d0.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.570fb2c1.chunk.js": "/static/js/2.570fb2c1.chunk.js",
   "static/js/2.570fb2c1.chunk.js.map": "/static/js/2.570fb2c1.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.0a34f418b446d9d18f16f6d2dffab735.js": "/precache-manifest.0a34f418b446d9d18f16f6d2dffab735.js",
+  "precache-manifest.24824406de4e1c7846edf17726a40714.js": "/precache-manifest.24824406de4e1c7846edf17726a40714.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.d80e69b7.chunk.css.map": "/static/css/main.d80e69b7.chunk.css.map",
   "static/media/cam-avatar.jpg": "/static/media/cam-avatar.60119ab8.jpg",
@@ -15,6 +15,6 @@
   "static/media/lifepreserver.png": "/static/media/lifepreserver.ec4ecbf2.png",
   "static/media/market-size.png": "/static/media/market-size.07321148.png",
   "static/media/michael-avatar.jpg": "/static/media/michael-avatar.b6f56642.jpg",
-  "static/media/product-roadmap.png": "/static/media/product-roadmap.85920431.png",
+  "static/media/product-roadmap.png": "/static/media/product-roadmap.f7bb6ba5.png",
   "static/media/waves.png": "/static/media/waves.a95d8440.png"
 }

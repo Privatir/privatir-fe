@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/cam-avatar.60119ab8.jpg"
   },
   {
-    "revision": "cbac1a5fe3525d958d7c",
+    "revision": "3517616fce7b4fa9f3f8",
     "url": "/static/css/main.d80e69b7.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/static/media/market-size.07321148.png"
   },
   {
-    "revision": "859204311fe5bf62d09446114c0ecd30",
-    "url": "/static/media/product-roadmap.85920431.png"
+    "revision": "f7bb6ba598dfe95ba03d23a57ba1acdc",
+    "url": "/static/media/product-roadmap.f7bb6ba5.png"
   },
   {
-    "revision": "cbac1a5fe3525d958d7c",
-    "url": "/static/js/main.ae5e5d84.chunk.js"
+    "revision": "3517616fce7b4fa9f3f8",
+    "url": "/static/js/main.b085c3d0.chunk.js"
   },
   {
     "revision": "72e01861d5b3888c10af2e0ea56a6e7d",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/waves.a95d8440.png"
   },
   {
-    "revision": "5eff8310177eaaa0559d3c89472f08a5",
+    "revision": "236a035a24649e27682bbf12fc1298da",
     "url": "/index.html"
   }
 ];
