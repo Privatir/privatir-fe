@@ -56,17 +56,19 @@ const Testimonial = () => {
               "We've received probably 50 emails from potential private equity
               and venture capital investors in the last 6 months.
             </H6>
-            <S2 style={{ alignSelf: `center` }} />
+            <S2 style={{ alignSelf: `center` }}>
+              — BSB Sales Enablement SaaS CEO
+            </S2>
             <H6>
               "I just don't have time to respond to all of the private equity
               shops. I'm just trying to run my business."
             </H6>
-            <S2 style={{ alignSelf: `center` }} />
+            <S2 style={{ alignSelf: `center` }}>— Healthcare SaaS CEO</S2>
             <H6>
-              "I'm not ready to take on outside investment yet. Especially from
-              the coasts."
+              "I'm not ready to take on outside investment yet. Especially
+              from the coasts."
             </H6>
-            <S2 style={{ alignSelf: `center` }} />
+            <S2 style={{ alignSelf: `center` }}> — eLearning SaaS CEO</S2>
           </div>
         </Card>
       </Cell>
