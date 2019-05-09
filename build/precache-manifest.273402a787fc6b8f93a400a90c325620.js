@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/cam-avatar.60119ab8.jpg"
   },
   {
-    "revision": "4fac3ad5e5e50123c0c5",
+    "revision": "172cc3dcb674be1fd7da",
     "url": "/static/css/main.d80e69b7.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/product-roadmap.f7bb6ba5.png"
   },
   {
-    "revision": "4fac3ad5e5e50123c0c5",
-    "url": "/static/js/main.11a4002e.chunk.js"
+    "revision": "172cc3dcb674be1fd7da",
+    "url": "/static/js/main.cde983e0.chunk.js"
   },
   {
     "revision": "ebf6e79304bc78b68ce9df0dd5f62ea8",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/waves.a95d8440.png"
   },
   {
-    "revision": "bce9e9658fdd8f1a03c2803997a250a1",
+    "revision": "9d01ff509ba37b2c68931c838df05071",
     "url": "/index.html"
   }
 ];
